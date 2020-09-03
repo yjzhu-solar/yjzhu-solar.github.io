@@ -3,6 +3,8 @@ layout: page
 title: Resources
 ---
 
+*Note: Some of the files are shared using Google drive for the purpose of preview. Please use the VPN to visit them if you have network issues.*
+
 ### Lecture Notes
 Some of the pooly-hand-written lecture notes of my undergraduate & graduate level courses:
 
