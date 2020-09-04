@@ -6,7 +6,7 @@ title: Resources
 *Note: Some of the files are shared using Google drive for the purpose of preview. Please use the VPN to visit them if you have network issues.*
 
 ### Lecture Notes
-Some of the pooly-hand-written lecture notes of my undergraduate & graduate level courses:
+Some of my poorly-hand-written lecture notes of the undergraduate & graduate level courses:
 
 #### Undergraduate courses in PKU
 [Theoretical Astrophysics (理论天体物理)](/assets/pdf/SteAtmos_comp.pdf){:target="_blank"} taught by Dr. Fukun Liu (刘富坤) in Fall 2017.
@@ -18,6 +18,9 @@ Some of the pooly-hand-written lecture notes of my undergraduate & graduate leve
 [Astronomical Spectroscopy (天体光谱学)](/assets/pdf/AstroSpec_comp.pdf){:target="_blank"} taught by Dr. Linhua Jiang (江林华) in Spring 2018.
 
 [General Relativity (广义相对论)](/assets/pdf/GR_comp.pdf){:target="_blank"} taught by Dr. Bin Chen (陈斌) in Spring 2019.
+
+### Talk Slides
+Some of the slides I used in the talks 
 
 ### Useful Links
 
