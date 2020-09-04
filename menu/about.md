@@ -10,9 +10,15 @@ I received my Bachelor's degree of Science from Peking University, where I found
 
 During the summer of 2018, I worked with Dr. Adam Kowalski at the National Solar Observatory, University of Colorado Boulder on radiative hydrodynamics simulations of solar flares with RADYN and RH code. We compared the synthetic Mg II line profiles with some IRIS observations  
 
-I am also an ambassador of Daniel K. Inouye Solar Telescope (DKIST) at the University of Michigan. The DKIST is a 4m solar telescope located at Maui, Hawaii. It will have its scientific first light in 2020 and start a one-year commission phase. Before the arrival of DKIST data, I am attending several DKIST workshops on data reduction and analysis. When DKIST data is available, I am going to use the Cryogenic Near-Infrared Spectropolarimeter (Cryo-NIRSP) and the Visible Spectropolarimeter (ViSP) to investigate the physical properties of coronal mass ejections (CMEs).
+I am also an ambassador of the Daniel K. Inouye Solar Telescope (DKIST) at the University of Michigan. The DKIST is a 4m solar telescope located at Maui, Hawaii. It will have its scientific first light in 2020 and start a one-year commission phase. Before the arrival of DKIST data, I am attending several DKIST workshops on data reduction and analysis. When DKIST data is available, I am going to use the Cryogenic Near-Infrared Spectropolarimeter (Cryo-NIRSP) and the Visible Spectropolarimeter (ViSP) to investigate the physical properties of coronal mass ejections (CMEs).
 
 The Sun is the nearest star to the earth and influence the space weather of earth greatly. Frequent solar eruptions such as flares, corona mass ejections (CMEs) release a huge number of energetic particles as well as corona plasma. 
+
+<figure>
+  <img src="/assets/img/sun_1.jpg" width="width:100%" class="center">
+  <figcaption>One of My Favorite Scenes in the Movie "5 Centimeters Per Second"</figcaption>
+</figure>
+
 
 ### About the Theme
 

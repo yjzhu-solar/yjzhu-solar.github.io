@@ -8,7 +8,7 @@ I love drawing and Chinese calligraphy since elementary school days. Though I ha
 
 <img src="/assets/img/gallery/cartoon/solar_energy.png" width="500"/>
 
-*Three basic ways of energy transportation below photoshpere: radiation, thermal conduction, and convection*
+*Three basic ways of energy transportation below photosphere: radiation, thermal conduction, and convection*
 
 <img src="/assets/img/gallery/cartoon/soho_hinode.png" width="500"/>
 
