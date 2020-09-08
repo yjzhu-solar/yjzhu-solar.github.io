@@ -25,3 +25,7 @@ I love drawing and Chinese calligraphy since elementary school days. Though I ha
 <img src="/assets/img/gallery/cartoon/stark_broad.png" width="500"/>
 
 *Quadratic Stark broadening of Mg II lines at solar flare ribbons.*
+
+<img src="/assets/img/gallery/cartoon/YukiMorikawa.png" width="500"/>
+
+*A copying*

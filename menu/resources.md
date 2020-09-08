@@ -20,7 +20,8 @@ Some of my poorly-hand-written lecture notes of the undergraduate & graduate lev
 [General Relativity (广义相对论)](/assets/pdf/GR_comp.pdf){:target="_blank"} taught by Dr. Bin Chen (陈斌) in Spring 2019.
 
 ### Talk Slides
-Some of the slides I used in the talks 
+[Final talk about my proposal in SPACE 747](https://docs.google.com/presentation/d/e/2PACX-1vTHQWJ_rsnOgXNCT5Nop7nT1cx9N9cBIaGHAgLdGCKTgUyRty-QRM5dV9n7J5tICw/pub?start=false&loop=false&delayms=3000){:target="_blank"}
+
 
 ### Useful Links
 
