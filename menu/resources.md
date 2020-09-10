@@ -8,7 +8,7 @@ title: Resources
 ### Lecture Notes
 Some of my poorly-hand-written lecture notes of the undergraduate & graduate level courses:
 
-#### Undergraduate courses in PKU
+#### Undergraduate courses at PKU
 [Theoretical Astrophysics (理论天体物理)](/assets/pdf/SteAtmos_comp.pdf){:target="_blank"} taught by Dr. Fukun Liu (刘富坤) in Fall 2017.
 
 [Astrophysics (天体物理)](/assets/pdf/Astrophy_comp.pdf){:target="_blank"} taught by Dr. Renxin Xu (徐仁新) in Spring 2018.
