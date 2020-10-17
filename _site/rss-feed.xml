@@ -7,17 +7,54 @@
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Welcome to My Horizon</title>
+				<title>[Updating] Solar Flares &amp; Simulating Mg II Profiles at Flare Ribbons: Comics</title>
 				
 					<dc:creator>Yingjie Zhu</dc:creator>
 				
 				
-					<description>&lt;p&gt;Sun, the nearest star, has been burning for more than 5 billion years.&lt;/p&gt;
+					<description>&lt;p&gt;The Solar flare, literally sudden brightening, is one of the most energetic eruptive events in the solar system. An X-class flare could release energy more than \(10^{32}\) erg in a few minutes, which is equivalent to \(\sim 10^{10}\) atomic bombs. It releases the magnetic energy restored in the solar atmosphere to heat to solar atmosphere, create bulk motions of plasma, emit radiation at different wavelengths, and accelerate solar energetic particles (SEPs). The solar X-ray and extreme ultraviolet (EUV) emission increase by a few orders of magnitude during a flare eruption, which has a huge impact on earth’s ionosphere and radio communications. The SEPs can be accelerated to more than tens of MeVs and threaten the spacecrafts in space. Therefore, understanding the physical mechanism of solar flare eruptions are important&lt;/p&gt;
 </description>
 				
-				<pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
-				<link>http://localhost:4000/journal/welcome.html</link>
-				<guid isPermaLink="true">http://localhost:4000/journal/welcome.html</guid>
+				<pubDate>Sat, 17 Oct 2020 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/research/journal/MgII_comic.html</link>
+				<guid isPermaLink="true">http://localhost:4000/research/journal/MgII_comic.html</guid>
+			</item>
+		
+			<item>
+				<title>[Updating] QM Notes: Density Matrix, Entropy, and Entanglement</title>
+				
+					<dc:creator>Yingjie Zhu</dc:creator>
+				
+				
+					<description>&lt;p&gt;Consider a quantum system which is in a statistical ensemble of several different quantum state \(\ket{\psi(\lambda)}\) with a classical probability of \(f(\lambda) \geq 0\). Then the expectation value of an Operator \(\hat{A}\) is 
+\[
+    \braket{A} = \int f(\lambda) \braket{\psi(\lambda)|\hat{A}|\psi(\lambda)} \mathrm{d} \lambda
+\]
+or 
+\[
+    \braket{A} = \sum_i f_i \braket{\psi_i|\hat{A}|\psi_i}
+\]
+in discrete case. Now we can introduce the density operator \(\hat{\rho}\), which is defined by
+\[
+\hat{\rho} \equiv \int \mathrm{d}\lambda f(\lambda)\ket{\psi(\lambda)}\bra{\psi(\lambda)}
+\]
+or 
+\[
+\hat{\rho} \equiv \sum_i f_i \ket{\psi_i}\bra{\psi_i}
+\]
+s.t. \(\braket{A} = \mathrm{tr}(\hat{\rho}\cdot \hat{A})\) , which can be easily proved as follows:
+\[
+\begin{aligned}
+\mathrm{tr}(\hat{\rho}\cdot \hat{A}) &amp;amp;= \sum_j \bra{\psi_j} \hat{\rho}\hat{A}\ket{\psi_j} \newline
+&amp;amp;= \sum_i \sum_j f_i  \braket{\psi_j|\psi_i}\bra{\psi_i}\hat{A}\ket{\psi_j} \newline
+&amp;amp;= \sum_i f_i \braket{\psi_i|\hat{A}|\psi_i}
+\end{aligned}
+\]&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 12 Oct 2020 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/blog/journal/qmnotes.html</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/journal/qmnotes.html</guid>
 			</item>
 		
 	</channel>

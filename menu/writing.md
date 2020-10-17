@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Research Works
+title: My Research
 ---
 <ul class="posts">
-  {% for post in site.posts %}
+  {% for post in site.categories.research %}
 
     {% unless post.next %}
       <h3>{{ post.date | date: '%Y' }}</h3>

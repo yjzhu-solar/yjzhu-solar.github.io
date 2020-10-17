@@ -1,0 +1,23 @@
+I"<p>Consider a quantum system which is in a statistical ensemble of several different quantum state \(\ket{\psi(\lambda)}\) with a classical probability of \(f(\lambda) \geq 0\). Then the expectation value of an Operator \(\hat{A}\) is 
+\[
+    \braket{A} = \int f(\lambda) \braket{\psi(\lambda)|\hat{A}|\psi(\lambda)} \mathrm{d} \lambda
+\]
+or 
+\[
+    \braket{A} = \sum_i f_i \braket{\psi_i|\hat{A}|\psi_i}
+\]
+in discrete case. Now we can introduce the density operator \(\hat{\rho}\), which is defined by
+\[
+\hat{\rho} \equiv \int \mathrm{d}\lambda f(\lambda)\ket{\psi(\lambda)}\bra{\psi(\lambda)}
+\]
+or 
+\[
+\hat{\rho} \equiv \sum_i f_i \ket{\psi_i}\bra{\psi_i}
+\]
+s.t. \(\braket{A} = \mathrm{tr}(\hat{\rho}\cdot \hat\{A})\) , which can be easily proved as follows:
+\[
+\begin{split}
+\mathrm{tr}(\hat{rho}\cdot \hat{A}) &amp;= \sum_j \bra{\psi_j} \hat{\rho}\hat{A}\ket{\psi_j} 
+\end{split}
+\]</p>
+:ET
