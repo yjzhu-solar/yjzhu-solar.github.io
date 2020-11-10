@@ -1,27 +1,89 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>{{ site.title | xml_escape }}</title>
-		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-		<link>{{ site.github.url }}</link>
-		<atom:link href="{{ site.github.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
-		{% for post in site.posts limit:10 %}
+		<title>Yingjie's Horizon</title>
+		<description>a FOOL in solar physics</description>
+		<link></link>
+		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
+		
 			<item>
-				<title>{{ post.title | xml_escape }}</title>
-				{% if post.author %}
-					<dc:creator>{{ post.author | xml_escape }}</dc:creator>
-				{% endif %}
-				{% if post.excerpt %}
-					<description>{{ post.excerpt | xml_escape }}</description>
-				{% else %}
-					<description>{{ post.content | xml_escape }}</description>
-				{% endif %}
-				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-				<link>{{ site.url }}{{ post.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+				<title> PHYSICS511: A Problem Set and Solution of Zeeman Effect and Milne-Eddington Approximation</title>
+				
+					<dc:creator>Yingjie Zhu</dc:creator>
+				
+				
+					<description>&lt;p&gt;A problem set and solutions which introduces the basics ideas of Zeeman effect and one naive hands-on practice which is developed in PHYSICS511.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 08 Nov 2020 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/blog/journal/phy511ps.html</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/journal/phy511ps.html</guid>
 			</item>
-		{% endfor %}
+		
+			<item>
+				<title>[Updating] SPACE597: Simulating a Coronal Mass Ejection</title>
+				
+					<dc:creator>Yingjie Zhu</dc:creator>
+				
+				
+					<description>&lt;p&gt;I am taking the SPACE597 Space Plasma Physics taught by Prof. Tamas Gombosi this semester. The final project of this graduate-level course is to simulate a coronal mass ejection (CME) and compare the simulations with observations using Alfvén Solar Model (AWSoM) and Eruptive Event Generator, Gibson and Low (EEGGL) on UCAR Cheyenne. I will write down the progress in my project in this blog.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 07 Nov 2020 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/blog/journal/space597proj.html</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/journal/space597proj.html</guid>
+			</item>
+		
+			<item>
+				<title>[Updating] Solar Flares &amp; Simulating Mg II Profiles at Flare Ribbons: Comics</title>
+				
+					<dc:creator>Yingjie Zhu</dc:creator>
+				
+				
+					<description>&lt;p&gt;The Solar flare, literally sudden brightening, is one of the most energetic eruptive events in the solar system. An X-class flare could release energy more than \(10^{32}\) erg in a few minutes, which is equivalent to \(\sim 10^{10}\) atomic bombs. It releases the magnetic energy restored in the solar atmosphere to heat to solar atmosphere, create bulk motions of plasma, emit radiation at different wavelengths, and accelerate solar energetic particles (SEPs). The solar X-ray and extreme ultraviolet (EUV) emission increase by a few orders of magnitude during a flare eruption, which has a huge impact on earth’s ionosphere and radio communications. The SEPs can be accelerated to more than tens of MeVs and threaten the spacecrafts in space. Therefore, understanding the physical mechanism of solar flare eruptions are important&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 17 Oct 2020 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/research/journal/MgII_comic.html</link>
+				<guid isPermaLink="true">http://localhost:4000/research/journal/MgII_comic.html</guid>
+			</item>
+		
+			<item>
+				<title>[Updating] QM Notes: Density Matrix, Entropy, and Entanglement</title>
+				
+					<dc:creator>Yingjie Zhu</dc:creator>
+				
+				
+					<description>&lt;p&gt;Consider a quantum system which is in a statistical ensemble of several different quantum state \(\ket{\psi(\lambda)}\) with a classical probability of \(f(\lambda) \geq 0\). Then the expectation value of an Operator \(\hat{A}\) is 
+\[
+    \braket{A} = \int f(\lambda) \braket{\psi(\lambda)|\hat{A}|\psi(\lambda)} \mathrm{d} \lambda
+\]
+or 
+\[
+    \braket{A} = \sum_i f_i \braket{\psi_i|\hat{A}|\psi_i}
+\]
+in discrete case. Now we can introduce the density operator \(\hat{\rho}\), which is defined by
+\[
+\hat{\rho} \equiv \int \mathrm{d}\lambda f(\lambda)\ket{\psi(\lambda)}\bra{\psi(\lambda)}
+\]
+or 
+\[
+\hat{\rho} \equiv \sum_i f_i \ket{\psi_i}\bra{\psi_i}
+\]
+s.t. \(\braket{A} = \mathrm{tr}(\hat{\rho}\cdot \hat{A})\) , which can be easily proved as follows:
+\[
+\begin{aligned}
+\mathrm{tr}(\hat{\rho}\cdot \hat{A}) &amp;amp;= \sum_j \bra{\psi_j} \hat{\rho}\hat{A}\ket{\psi_j} \newline
+&amp;amp;= \sum_i \sum_j f_i  \braket{\psi_j|\psi_i}\bra{\psi_i}\hat{A}\ket{\psi_j} \newline
+&amp;amp;= \sum_i f_i \braket{\psi_i|\hat{A}|\psi_i}
+\end{aligned}
+\]&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 12 Oct 2020 00:00:00 -0400</pubDate>
+				<link>http://localhost:4000/blog/journal/qmnotes.html</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/journal/qmnotes.html</guid>
+			</item>
+		
 	</channel>
 </rss>
