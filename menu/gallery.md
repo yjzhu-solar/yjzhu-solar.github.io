@@ -29,3 +29,7 @@ I love drawing and Chinese calligraphy since elementary school days. Though I ha
 <img src="/assets/img/gallery/cartoon/YukiMorikawa.png" width="500"/>
 
 *A copying*
+
+<img src="/assets/img/gallery/cartoon/YukiMorikawa2.png" width="500"/>
+
+*Another copying*
