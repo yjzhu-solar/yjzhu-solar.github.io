@@ -21,6 +21,7 @@ gem "jekyll", "~> 4.1.1"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.15.0"
   gem 'jekyll_picture_tag', '~> 2.0'
+  gem "jekyll-pdf-embed"
 end
 
 source "https://rubygems.org"

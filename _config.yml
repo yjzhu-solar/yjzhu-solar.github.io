@@ -18,8 +18,8 @@ markdown:            kramdown
 mathjax:             true
 highlighter:         rouge
 permalink:           none
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag,jekyll-redirect-from,jekyll-jupyter-notebook,jekyll-responsive-image,
-                      jekyll_picture_tag]
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag,jekyll-redirect-from,jekyll-jupyter-notebook,
+                      jekyll_picture_tag,jekyll-pdf-embed]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "Yingjie's Horizon"
