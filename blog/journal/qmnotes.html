@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/syntax.css">
   <!-- Use Atom -->
-  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Yingjie's Horizon" />
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Yingjie's Horizon" />
   <!-- Use RSS-2.0 -->
   <!--<link href="/rss-feed.xml" type="application/rss+xml" rel="alternate" title="Yingjie's Horizon | a FOOL in solar physics"/>
   //-->
@@ -56,13 +56,11 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Consider a quantum system which is in a statistical ensemble of several different quantum state \(\ket{\psi(\lambda)}\) with a classical probability of \(f(\lambda) \geq 0\). Then the expectation value of an Operator \(\hat{A}\) is \[ \braket{A} = \int f(\lambda) \braket{\psi(\lambda)|\hat{A}|\psi(\lambda)} \mathrm{d} \lambda \] or \[ \braket{A} = \sum_i f_i \braket{\psi_i|\hat{A}|\psi_i} \] in discrete case. Now we can introduce the density operator \(\hat{\rho}\), which is defined by \[ \hat{\rho} \equiv \int \mathrm{d}\lambda f(\lambda)\ket{\psi(\lambda)}\bra{\psi(\lambda)} \] or \[ \hat{\rho} \equiv \sum_i f_i \ket{\psi_i}\bra{\psi_i} \] s.t. \(\braket{A} = \mathrm{tr}(\hat{\rho}\cdot \hat{A})\) , which can be easily proved as follows: \[ \begin{aligned} \mathrm{tr}(\hat{\rho}\cdot \hat{A}) &amp;= \sum_j \bra{\psi_j} \hat{\rho}\hat{A}\ket{\psi_j} \newline &amp;= \sum_i \sum_j f_i \braket{\psi_j|\psi_i}\bra{\psi_i}\hat{A}\ket{\psi_j} \newline &amp;= \sum_i f_i \braket{\psi_i|\hat{A}|\psi_i} \end{aligned} \]" />
 <meta property="og:description" content="Consider a quantum system which is in a statistical ensemble of several different quantum state \(\ket{\psi(\lambda)}\) with a classical probability of \(f(\lambda) \geq 0\). Then the expectation value of an Operator \(\hat{A}\) is \[ \braket{A} = \int f(\lambda) \braket{\psi(\lambda)|\hat{A}|\psi(\lambda)} \mathrm{d} \lambda \] or \[ \braket{A} = \sum_i f_i \braket{\psi_i|\hat{A}|\psi_i} \] in discrete case. Now we can introduce the density operator \(\hat{\rho}\), which is defined by \[ \hat{\rho} \equiv \int \mathrm{d}\lambda f(\lambda)\ket{\psi(\lambda)}\bra{\psi(\lambda)} \] or \[ \hat{\rho} \equiv \sum_i f_i \ket{\psi_i}\bra{\psi_i} \] s.t. \(\braket{A} = \mathrm{tr}(\hat{\rho}\cdot \hat{A})\) , which can be easily proved as follows: \[ \begin{aligned} \mathrm{tr}(\hat{\rho}\cdot \hat{A}) &amp;= \sum_j \bra{\psi_j} \hat{\rho}\hat{A}\ket{\psi_j} \newline &amp;= \sum_i \sum_j f_i \braket{\psi_j|\psi_i}\bra{\psi_i}\hat{A}\ket{\psi_j} \newline &amp;= \sum_i f_i \braket{\psi_i|\hat{A}|\psi_i} \end{aligned} \]" />
-<link rel="canonical" href="http://localhost:4000/blog/journal/qmnotes.html" />
-<meta property="og:url" content="http://localhost:4000/blog/journal/qmnotes.html" />
 <meta property="og:site_name" content="Yingjie’s Horizon" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-10-12T00:00:00-04:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"[Updating] QM Notes: Density Matrix, Entropy, and Entanglement","dateModified":"2020-10-12T00:00:00-04:00","url":"http://localhost:4000/blog/journal/qmnotes.html","datePublished":"2020-10-12T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/journal/qmnotes.html"},"author":{"@type":"Person","name":"Yingjie Zhu"},"description":"Consider a quantum system which is in a statistical ensemble of several different quantum state \\(\\ket{\\psi(\\lambda)}\\) with a classical probability of \\(f(\\lambda) \\geq 0\\). Then the expectation value of an Operator \\(\\hat{A}\\) is \\[ \\braket{A} = \\int f(\\lambda) \\braket{\\psi(\\lambda)|\\hat{A}|\\psi(\\lambda)} \\mathrm{d} \\lambda \\] or \\[ \\braket{A} = \\sum_i f_i \\braket{\\psi_i|\\hat{A}|\\psi_i} \\] in discrete case. Now we can introduce the density operator \\(\\hat{\\rho}\\), which is defined by \\[ \\hat{\\rho} \\equiv \\int \\mathrm{d}\\lambda f(\\lambda)\\ket{\\psi(\\lambda)}\\bra{\\psi(\\lambda)} \\] or \\[ \\hat{\\rho} \\equiv \\sum_i f_i \\ket{\\psi_i}\\bra{\\psi_i} \\] s.t. \\(\\braket{A} = \\mathrm{tr}(\\hat{\\rho}\\cdot \\hat{A})\\) , which can be easily proved as follows: \\[ \\begin{aligned} \\mathrm{tr}(\\hat{\\rho}\\cdot \\hat{A}) &amp;= \\sum_j \\bra{\\psi_j} \\hat{\\rho}\\hat{A}\\ket{\\psi_j} \\newline &amp;= \\sum_i \\sum_j f_i \\braket{\\psi_j|\\psi_i}\\bra{\\psi_i}\\hat{A}\\ket{\\psi_j} \\newline &amp;= \\sum_i f_i \\braket{\\psi_i|\\hat{A}|\\psi_i} \\end{aligned} \\]","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","headline":"[Updating] QM Notes: Density Matrix, Entropy, and Entanglement","dateModified":"2020-10-12T00:00:00-04:00","url":"/blog/journal/qmnotes.html","datePublished":"2020-10-12T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"/blog/journal/qmnotes.html"},"author":{"@type":"Person","name":"Yingjie Zhu"},"description":"Consider a quantum system which is in a statistical ensemble of several different quantum state \\(\\ket{\\psi(\\lambda)}\\) with a classical probability of \\(f(\\lambda) \\geq 0\\). Then the expectation value of an Operator \\(\\hat{A}\\) is \\[ \\braket{A} = \\int f(\\lambda) \\braket{\\psi(\\lambda)|\\hat{A}|\\psi(\\lambda)} \\mathrm{d} \\lambda \\] or \\[ \\braket{A} = \\sum_i f_i \\braket{\\psi_i|\\hat{A}|\\psi_i} \\] in discrete case. Now we can introduce the density operator \\(\\hat{\\rho}\\), which is defined by \\[ \\hat{\\rho} \\equiv \\int \\mathrm{d}\\lambda f(\\lambda)\\ket{\\psi(\\lambda)}\\bra{\\psi(\\lambda)} \\] or \\[ \\hat{\\rho} \\equiv \\sum_i f_i \\ket{\\psi_i}\\bra{\\psi_i} \\] s.t. \\(\\braket{A} = \\mathrm{tr}(\\hat{\\rho}\\cdot \\hat{A})\\) , which can be easily proved as follows: \\[ \\begin{aligned} \\mathrm{tr}(\\hat{\\rho}\\cdot \\hat{A}) &amp;= \\sum_j \\bra{\\psi_j} \\hat{\\rho}\\hat{A}\\ket{\\psi_j} \\newline &amp;= \\sum_i \\sum_j f_i \\braket{\\psi_j|\\psi_i}\\bra{\\psi_i}\\hat{A}\\ket{\\psi_j} \\newline &amp;= \\sum_i f_i \\braket{\\psi_i|\\hat{A}|\\psi_i} \\end{aligned} \\]","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -180,7 +178,7 @@ s.t. \(\braket{A} = \mathrm{tr}(\hat{\rho}\cdot \hat{A})\) , which can be easily
             <h3>
               <a href="/blog/journal/space597proj.html">
                 [Updating] SPACE597: Simulating a Coronal Mass Ejection
-                <!--<img src="http://localhost:4000/images/">-->
+                <!--<img src="/images/">-->
                 <!--<small>January 2, 2021</small>-->
               </a>
             </h3>
@@ -193,7 +191,7 @@ s.t. \(\braket{A} = \mathrm{tr}(\hat{\rho}\cdot \hat{A})\) , which can be easily
             <h3>
               <a href="/blog/journal/phy511ps.html">
                  PHYSICS511: A Problem Set and Solution of Zeeman Effect and Milne-Eddington Approximation
-                <!--<img src="http://localhost:4000/images/">-->
+                <!--<img src="/images/">-->
                 <!--<small>November 8, 2020</small>-->
               </a>
             </h3>
@@ -206,7 +204,7 @@ s.t. \(\braket{A} = \mathrm{tr}(\hat{\rho}\cdot \hat{A})\) , which can be easily
             <h3>
               <a href="/research/journal/MgII_comic.html">
                 [Updating] Solar Flares & Simulating Mg II Profiles at Flare Ribbons: Comics
-                <!--<img src="http://localhost:4000/images/">-->
+                <!--<img src="/images/">-->
                 <!--<small>October 17, 2020</small>-->
               </a>
             </h3>

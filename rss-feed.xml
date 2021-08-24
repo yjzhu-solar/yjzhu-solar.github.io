@@ -16,8 +16,8 @@
 </description>
 				
 				<pubDate>Sat, 02 Jan 2021 00:00:00 -0500</pubDate>
-				<link>http://localhost:4000/blog/journal/space597proj.html</link>
-				<guid isPermaLink="true">http://localhost:4000/blog/journal/space597proj.html</guid>
+				<link>/blog/journal/space597proj.html</link>
+				<guid isPermaLink="true">/blog/journal/space597proj.html</guid>
 			</item>
 		
 			<item>
@@ -30,8 +30,8 @@
 </description>
 				
 				<pubDate>Sun, 08 Nov 2020 00:00:00 -0500</pubDate>
-				<link>http://localhost:4000/blog/journal/phy511ps.html</link>
-				<guid isPermaLink="true">http://localhost:4000/blog/journal/phy511ps.html</guid>
+				<link>/blog/journal/phy511ps.html</link>
+				<guid isPermaLink="true">/blog/journal/phy511ps.html</guid>
 			</item>
 		
 			<item>
@@ -44,8 +44,8 @@
 </description>
 				
 				<pubDate>Sat, 17 Oct 2020 00:00:00 -0400</pubDate>
-				<link>http://localhost:4000/research/journal/MgII_comic.html</link>
-				<guid isPermaLink="true">http://localhost:4000/research/journal/MgII_comic.html</guid>
+				<link>/research/journal/MgII_comic.html</link>
+				<guid isPermaLink="true">/research/journal/MgII_comic.html</guid>
 			</item>
 		
 			<item>
@@ -81,8 +81,8 @@ s.t. \(\braket{A} = \mathrm{tr}(\hat{\rho}\cdot \hat{A})\) , which can be easily
 </description>
 				
 				<pubDate>Mon, 12 Oct 2020 00:00:00 -0400</pubDate>
-				<link>http://localhost:4000/blog/journal/qmnotes.html</link>
-				<guid isPermaLink="true">http://localhost:4000/blog/journal/qmnotes.html</guid>
+				<link>/blog/journal/qmnotes.html</link>
+				<guid isPermaLink="true">/blog/journal/qmnotes.html</guid>
 			</item>
 		
 	</channel>
