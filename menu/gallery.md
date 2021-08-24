@@ -33,3 +33,5 @@ I love drawing and Chinese calligraphy since elementary school days. Though I ha
 <img src="/assets/img/gallery/cartoon/YukiMorikawa2.png" width="500"/>
 
 *Another copying*
+
+{% picture assets/img/gallery/cartoon/YukiMorikawa2.png %}
