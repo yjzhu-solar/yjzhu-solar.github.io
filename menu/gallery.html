@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/syntax.css">
   <!-- Use Atom -->
-  <link type="application/atom+xml" rel="alternate" href="https://yjzhu-solar.github.io/feed.xml" title="Yingjie's Horizon" />
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Yingjie's Horizon" />
   <!-- Use RSS-2.0 -->
   <!--<link href="/rss-feed.xml" type="application/rss+xml" rel="alternate" title="Yingjie's Horizon | a FOOL in solar physics"/>
   //-->
@@ -56,11 +56,9 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="a FOOL in solar physics" />
 <meta property="og:description" content="a FOOL in solar physics" />
-<link rel="canonical" href="https://yjzhu-solar.github.io/menu/gallery.html" />
-<meta property="og:url" content="https://yjzhu-solar.github.io/menu/gallery.html" />
 <meta property="og:site_name" content="Yingjie’s Horizon" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"https://yjzhu-solar.github.io/menu/gallery.html","author":{"@type":"Person","name":"Yingjie Zhu"},"headline":"My Poor Gallery","description":"a FOOL in solar physics","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"/menu/gallery.html","author":{"@type":"Person","name":"Yingjie Zhu"},"headline":"My Poor Gallery","description":"a FOOL in solar physics","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -118,35 +116,151 @@
 
 <p>I love drawing and Chinese calligraphy since elementary school days. Though I have not received any standard trainings, I would like to post some of my poor works (:3_ヽ)__</p>
 
-<p><img src="/assets/img/gallery/cartoon/solar_energy.png" width="500" /></p>
+<html>
+    <head>
+        <style>
+            .gallery {
+                display: flex;
+                padding: 0px;     
+                transition: .3s;       
+            }
 
-<p><em>Three basic ways of energy transportation below photosphere: radiation, thermal conduction, and convection</em></p>
+            .gallery .column{
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+            }
 
-<p><img src="/assets/img/gallery/cartoon/soho_hinode.png" width="500" /></p>
+            .gallery .link {
+                margin: 2px;
+                overflow: hidden;
+            }
 
-<p><em>Solar Ultraviolet Measurements of Emitted Radiation spectrometer (SUMER) on board Solar and Heliospheric Observatory (SOHO) and Extreme Ultraviolet Imaging Spectrometer (EIS) on board Hinode Satellite.</em></p>
+            .gallery .link:hover .gallery .caption{
+                transition-delay: .25s;
+                opacity: 1;
+            }
 
-<p><img src="/assets/img/gallery/cartoon/solar_flare.png" width="500" /></p>
+            .gallery .thumb {
+                position: relative;
+            }
 
-<p><em>A cartoon of standard 2-D CSHKP model of a solar flare.</em></p>
+            .gallery .image {
+                display: block;
+                width: 100%;
+                transition: .3s;
+            }
 
-<p><img src="/assets/img/gallery/cartoon/energy_level.png" width="500" /></p>
+            .gallery .image:hover {
+                transform: scale(1.1);
+            }
 
-<p><em>Discrete energy level and spontaneous transition of a Mg II ion.</em></p>
+            .gallery .caption {
+                position: absolute;
+                bottom: -20px;
+                left: -5px;
+                padding: 15px 10px 10px;
+                width: 100%;
+                font-family: 'Raleway', sans-serif;
+                font-size: 16px;
+                color: white;
+                opacity: 0;
+                background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255 ,255 , 0) 100%);
+                transition: .3s;
+            }
 
-<p><img src="/assets/img/gallery/cartoon/stark_broad.png" width="500" /></p>
+        </style>
+    </head>
 
-<p><em>Quadratic Stark broadening of Mg II lines at solar flare ribbons.</em></p>
+    <body>
+        <div class="gallery">
+            <div class="gallery column">
 
-<p><img src="/assets/img/gallery/cartoon/YukiMorikawa.png" width="500" /></p>
+                <a href="/assets/img/gallery/cartoon/transition_high.gif" target="_blank" class="gallery link">
+                    <figure class="gallery thumb">
+                        <img src="/assets/img/gallery/cartoon/transition_high.gif" alt="Transition" class="gallery image" />
+                        <figcaption class="gallery caption">Transition</figcaption>
+                    </figure>
+                </a>
 
-<p><em>A copying</em></p>
+                <a href="/assets/img/gallery/cartoon/nonthermal_broaden.gif" target="_blank" class="gallery link">
+                    <figure class="gallery thumb">
+                        <img src="/assets/img/gallery/cartoon/nonthermal_broaden.gif" alt="NonThermalBroaden" class="gallery image" />
+                        <figcaption class="gallery caption">Non-thermal Broadening</figcaption>
+                    </figure>
+                </a>
 
-<p><img src="/assets/img/gallery/cartoon/YukiMorikawa2.png" width="500" /></p>
+                <a href="/assets/img/gallery/cartoon/solar_energy.png" target="_blank" class="gallery link">
+                    <figure class="gallery thumb">
+                        <img src="/assets/img/gallery/cartoon/solar_energy.png" alt="EnergyTransport" class="gallery image" />
+                        <figcaption class="gallery caption">Energy Transportation</figcaption>
+                    </figure>
+                </a>
 
-<p><em>Another copying</em></p>
+                <a href="/assets/img/gallery/cartoon/solar_flare.png" target="_blank" class="gallery link">
+                    <figure class="gallery thumb">
+                        <img src="/assets/img/gallery/cartoon/solar_flare.png" alt="CSHKPFlare" class="gallery image" />
+                        <figcaption class="gallery caption">CSHKP Flare</figcaption>
+                    </figure>
+                </a>
 
-<p><img src="/generated/assets/img/gallery/cartoon/YukiMorikawa2-800-f3acb733f.png" srcset="/generated/assets/img/gallery/cartoon/YukiMorikawa2-400-f3acb733f.png 400w, /generated/assets/img/gallery/cartoon/YukiMorikawa2-600-f3acb733f.png 600w, /generated/assets/img/gallery/cartoon/YukiMorikawa2-800-f3acb733f.png 800w, /generated/assets/img/gallery/cartoon/YukiMorikawa2-1000-f3acb733f.png 1000w" /></p>
+                <a href="/assets/img/gallery/cartoon/YukiMorikawa.png" target="_blank" class="gallery link">
+                    <figure class="gallery thumb">
+                        <img src="/assets/img/gallery/cartoon/YukiMorikawa.png" alt="YukiMorikawa" class="gallery image" />
+                        <figcaption class="gallery caption">Yuki Morikawa</figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="gallery column">
+
+                <a href="/assets/img/gallery/cartoon/thermal_broaden.gif" target="_blank" class="gallery link">
+                    <figure class="gallery thumb">
+                        <img src="/assets/img/gallery/cartoon/thermal_broaden.gif" alt="ThermalBroaden" class="gallery image" />
+                        <figcaption class="gallery caption">Thermal Broadening</figcaption>
+                    </figure>
+                </a>
+
+                <a href="/assets/img/gallery/cartoon/soho_hinode.png" target="_blank" class="gallery link">
+                    <figure class="gallery thumb">
+                        <img src="/assets/img/gallery/cartoon/soho_hinode.png" alt="SUMEREIS" class="gallery image" />
+                        <figcaption class="gallery caption">SUMER&amp;EIS</figcaption>
+                    </figure>
+                </a>
+
+                <a href="/assets/img/gallery/cartoon/energy_level.png" target="_blank" class="gallery link">
+                    <figure class="gallery thumb">
+                        <img src="/assets/img/gallery/cartoon/energy_level.png" alt="Transition" class="gallery image" />
+                        <figcaption class="gallery caption">Transition</figcaption>
+                    </figure>
+                </a>
+
+                <a href="/assets/img/gallery/cartoon/stark_broad.png" target="_blank" class="gallery link">
+                    <figure class="gallery thumb">
+                        <img src="/assets/img/gallery/cartoon/stark_broad.png" alt="StarkBroaden" class="gallery image" />
+                        <figcaption class="gallery caption">Stark Broadening</figcaption>
+                    </figure>
+                </a>
+
+                <a href="/assets/img/gallery/cartoon/soho_25aniversary.png" target="_blank" class="gallery link">
+                    <figure class="gallery thumb">
+                        <img src="/assets/img/gallery/cartoon/soho_25aniversary.png" alt="SOHO25th" class="gallery image" />
+                        <figcaption class="gallery caption">SOHO 25th Anniversary</figcaption>
+                    </figure>
+                </a>
+
+                <a href="/assets/img/gallery/cartoon/YukiMorikawa2.png" target="_blank" class="gallery link">
+                    <figure class="gallery thumb">
+                        <img src="/assets/img/gallery/cartoon/YukiMorikawa2.png" alt="YukiMorikawa" class="gallery image" />
+                        <figcaption class="gallery caption">Yuki Morikawa</figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+
+
+    </body>
+</html>
 
 
     </div>
