@@ -15,7 +15,7 @@
 					<description>&lt;p&gt;The solar corona is the outermost part of the solar atmosphere. Due to its low density, scientists usually observe the corona during the solar eclipse or by ultra-violet imaging in space (see Figure 1). One may wonder that the corona should be cooler than the surface since the core, where nuclear fusion undergoes, is the hottest. However, the temperature of the solar atmosphere increases drastically below the corona (see Figure 2). The corona is actually filled with million-degree and highly-ionized plasma.&lt;/p&gt;
 </description>
 				
-				<pubDate>Sun, 24 Oct 2021 00:00:00 +0800</pubDate>
+				<pubDate>Sun, 24 Oct 2021 00:00:00 -0400</pubDate>
 				<link>/research/journal/PCH_EIS_AWSoM.html</link>
 				<guid isPermaLink="true">/research/journal/PCH_EIS_AWSoM.html</guid>
 			</item>
@@ -29,11 +29,11 @@
 					<description>&lt;p class=&quot;text-justify&quot;&gt;I am taking the SPACE597 Space Plasma Physics taught by Prof. Tamas Gombosi this semester. The final project of this graduate-level course is to simulate a coronal mass ejection (CME) and compare the simulations with observations using Alfvén Solar Model (AWSoM) and Eruptive Event Generator, Gibson and Low (EEGGL) on UCAR Cheyenne. I will write down the progress in my project in this blog.&lt;/p&gt;
 &lt;h4 id=&quot;2021-01-02-update-final-report&quot;&gt;2021-01-02 update: Final Report&lt;/h4&gt;
 &lt;p&gt;The final report:&lt;/p&gt;
-&lt;style&gt; .pdf-embed-wrap-af39045a-c1dc-437c-b94b-b47ed42024c8 { display:flex; flex-direction: column; width: 100%; height: 600px; } .pdf-embed-container-af39045a-c1dc-437c-b94b-b47ed42024c8 { height: 100%; } .pdf-embed-container-af39045a-c1dc-437c-b94b-b47ed42024c8 iframe { width: 100%; height: 100%; } &lt;/style&gt;
-&lt;div class=&quot;pdf-embed-wrap-af39045a-c1dc-437c-b94b-b47ed42024c8&quot;&gt; &lt;div class=&quot;pdf-embed-container-af39045a-c1dc-437c-b94b-b47ed42024c8&quot;&gt; &lt;iframe src=&quot;/assets/pdf/SPACE597_final_yjzhu.pdf&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;
+&lt;style&gt; .pdf-embed-wrap-c064e02d-64ed-4ab9-aa96-40092afd6663 { display:flex; flex-direction: column; width: 100%; height: 600px; } .pdf-embed-container-c064e02d-64ed-4ab9-aa96-40092afd6663 { height: 100%; } .pdf-embed-container-c064e02d-64ed-4ab9-aa96-40092afd6663 iframe { width: 100%; height: 100%; } &lt;/style&gt;
+&lt;div class=&quot;pdf-embed-wrap-c064e02d-64ed-4ab9-aa96-40092afd6663&quot;&gt; &lt;div class=&quot;pdf-embed-container-c064e02d-64ed-4ab9-aa96-40092afd6663&quot;&gt; &lt;iframe src=&quot;/assets/pdf/SPACE597_final_yjzhu.pdf&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;
 </description>
 				
-				<pubDate>Sat, 02 Jan 2021 00:00:00 +0800</pubDate>
+				<pubDate>Sat, 02 Jan 2021 00:00:00 -0500</pubDate>
 				<link>/blog/journal/space597proj.html</link>
 				<guid isPermaLink="true">/blog/journal/space597proj.html</guid>
 			</item>
@@ -47,7 +47,7 @@
 					<description>&lt;p&gt;A problem set and solutions which introduces the basics ideas of Zeeman effect and one naive hands-on practice which is developed in PHYSICS511.&lt;/p&gt;
 </description>
 				
-				<pubDate>Sun, 08 Nov 2020 00:00:00 +0800</pubDate>
+				<pubDate>Sun, 08 Nov 2020 00:00:00 -0500</pubDate>
 				<link>/blog/journal/phy511ps.html</link>
 				<guid isPermaLink="true">/blog/journal/phy511ps.html</guid>
 			</item>
@@ -65,7 +65,7 @@
 &lt;p class=&quot;text-justify&quot;&gt;The solar flare, literally sudden brightening, is one of the most energetic eruptive events in the solar system. An X-class flare could release energy more than \(10^{32}\) erg in a few minutes, which is equivalent to \(\sim 10^{10}\) atomic bombs. The solar flare releases the magnetic energy restored in the solar atmosphere to heat to the solar atmosphere, creates bulk motions of plasma, emits radiation at different wavelengths, and accelerates solar energetic particles (SEPs). The solar X-ray and extreme ultraviolet (EUV) emission increase by a few orders of magnitude during a flare eruption, significantly impacting ionosphere and radio communications. The SEPs can be accelerated to more than tens of MeVs and threaten the spacecraft in space. Therefore, it is essential to understand the physical mechanism of solar flare eruptions.&lt;/p&gt;
 </description>
 				
-				<pubDate>Sat, 17 Oct 2020 00:00:00 +0800</pubDate>
+				<pubDate>Sat, 17 Oct 2020 00:00:00 -0400</pubDate>
 				<link>/research/journal/MgII_comic.html</link>
 				<guid isPermaLink="true">/research/journal/MgII_comic.html</guid>
 			</item>
