@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
-		<title>Yingjie's Horizon</title>
+		<title>Yingjie&apos;s Horizon</title>
 		<description>a FOOL in solar physics</description>
 		<link></link>
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
@@ -29,8 +29,8 @@
 					<description>&lt;p class=&quot;text-justify&quot;&gt;I am taking the SPACE597 Space Plasma Physics taught by Prof. Tamas Gombosi this semester. The final project of this graduate-level course is to simulate a coronal mass ejection (CME) and compare the simulations with observations using Alfvén Solar Model (AWSoM) and Eruptive Event Generator, Gibson and Low (EEGGL) on UCAR Cheyenne. I will write down the progress in my project in this blog.&lt;/p&gt;
 &lt;h4 id=&quot;2021-01-02-update-final-report&quot;&gt;2021-01-02 update: Final Report&lt;/h4&gt;
 &lt;p&gt;The final report:&lt;/p&gt;
-&lt;style&gt; .pdf-embed-wrap-84712b83-fd73-4d99-ae09-b078f9f4719e { display:flex; flex-direction: column; width: 100%; height: 600px; } .pdf-embed-container-84712b83-fd73-4d99-ae09-b078f9f4719e { height: 100%; } .pdf-embed-container-84712b83-fd73-4d99-ae09-b078f9f4719e iframe { width: 100%; height: 100%; } &lt;/style&gt;
-&lt;div class=&quot;pdf-embed-wrap-84712b83-fd73-4d99-ae09-b078f9f4719e&quot;&gt; &lt;div class=&quot;pdf-embed-container-84712b83-fd73-4d99-ae09-b078f9f4719e&quot;&gt; &lt;iframe src=&quot;/assets/pdf/SPACE597_final_yjzhu.pdf&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;
+&lt;style&gt; .pdf-embed-wrap-755ef954-c30c-4835-b3b2-da2e2b2bb936 { display:flex; flex-direction: column; width: 100%; height: 600px; } .pdf-embed-container-755ef954-c30c-4835-b3b2-da2e2b2bb936 { height: 100%; } .pdf-embed-container-755ef954-c30c-4835-b3b2-da2e2b2bb936 iframe { width: 100%; height: 100%; } &lt;/style&gt;
+&lt;div class=&quot;pdf-embed-wrap-755ef954-c30c-4835-b3b2-da2e2b2bb936&quot;&gt; &lt;div class=&quot;pdf-embed-container-755ef954-c30c-4835-b3b2-da2e2b2bb936&quot;&gt; &lt;iframe src=&quot;/assets/pdf/SPACE597_final_yjzhu.pdf&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;
 </description>
 				
 				<pubDate>Sat, 02 Jan 2021 00:00:00 +0100</pubDate>
