@@ -16,8 +16,8 @@
 </description>
 				
 				<pubDate>Sun, 24 Oct 2021 00:00:00 +0200</pubDate>
-				<link>/research/journal/PCH_EIS_AWSoM.html</link>
-				<guid isPermaLink="true">/research/journal/PCH_EIS_AWSoM.html</guid>
+				<link>http://localhost:4000/research/journal/PCH_EIS_AWSoM.html</link>
+				<guid isPermaLink="true">http://localhost:4000/research/journal/PCH_EIS_AWSoM.html</guid>
 			</item>
 		
 			<item>
@@ -29,13 +29,13 @@
 					<description>&lt;p class=&quot;text-justify&quot;&gt;I am taking the SPACE597 Space Plasma Physics taught by Prof. Tamas Gombosi this semester. The final project of this graduate-level course is to simulate a coronal mass ejection (CME) and compare the simulations with observations using Alfvén Solar Model (AWSoM) and Eruptive Event Generator, Gibson and Low (EEGGL) on UCAR Cheyenne. I will write down the progress in my project in this blog.&lt;/p&gt;
 &lt;h4 id=&quot;2021-01-02-update-final-report&quot;&gt;2021-01-02 update: Final Report&lt;/h4&gt;
 &lt;p&gt;The final report:&lt;/p&gt;
-&lt;style&gt; .pdf-embed-wrap-755ef954-c30c-4835-b3b2-da2e2b2bb936 { display:flex; flex-direction: column; width: 100%; height: 600px; } .pdf-embed-container-755ef954-c30c-4835-b3b2-da2e2b2bb936 { height: 100%; } .pdf-embed-container-755ef954-c30c-4835-b3b2-da2e2b2bb936 iframe { width: 100%; height: 100%; } &lt;/style&gt;
-&lt;div class=&quot;pdf-embed-wrap-755ef954-c30c-4835-b3b2-da2e2b2bb936&quot;&gt; &lt;div class=&quot;pdf-embed-container-755ef954-c30c-4835-b3b2-da2e2b2bb936&quot;&gt; &lt;iframe src=&quot;/assets/pdf/SPACE597_final_yjzhu.pdf&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;
+&lt;style&gt; .pdf-embed-wrap-313d7956-5999-45f5-b5fe-f50eaa63a725 { display:flex; flex-direction: column; width: 100%; height: 600px; } .pdf-embed-container-313d7956-5999-45f5-b5fe-f50eaa63a725 { height: 100%; } .pdf-embed-container-313d7956-5999-45f5-b5fe-f50eaa63a725 iframe { width: 100%; height: 100%; } &lt;/style&gt;
+&lt;div class=&quot;pdf-embed-wrap-313d7956-5999-45f5-b5fe-f50eaa63a725&quot;&gt; &lt;div class=&quot;pdf-embed-container-313d7956-5999-45f5-b5fe-f50eaa63a725&quot;&gt; &lt;iframe src=&quot;/assets/pdf/SPACE597_final_yjzhu.pdf&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;
 </description>
 				
 				<pubDate>Sat, 02 Jan 2021 00:00:00 +0100</pubDate>
-				<link>/blog/journal/space597proj.html</link>
-				<guid isPermaLink="true">/blog/journal/space597proj.html</guid>
+				<link>http://localhost:4000/blog/journal/space597proj.html</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/journal/space597proj.html</guid>
 			</item>
 		
 			<item>
@@ -48,8 +48,8 @@
 </description>
 				
 				<pubDate>Sun, 08 Nov 2020 00:00:00 +0100</pubDate>
-				<link>/blog/journal/phy511ps.html</link>
-				<guid isPermaLink="true">/blog/journal/phy511ps.html</guid>
+				<link>http://localhost:4000/blog/journal/phy511ps.html</link>
+				<guid isPermaLink="true">http://localhost:4000/blog/journal/phy511ps.html</guid>
 			</item>
 		
 			<item>
@@ -66,8 +66,8 @@
 </description>
 				
 				<pubDate>Sat, 17 Oct 2020 00:00:00 +0200</pubDate>
-				<link>/research/journal/MgII_comic.html</link>
-				<guid isPermaLink="true">/research/journal/MgII_comic.html</guid>
+				<link>http://localhost:4000/research/journal/MgII_comic.html</link>
+				<guid isPermaLink="true">http://localhost:4000/research/journal/MgII_comic.html</guid>
 			</item>
 		
 	</channel>
