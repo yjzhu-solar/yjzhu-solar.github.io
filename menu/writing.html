@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
 
@@ -27,13 +27,30 @@
 
   <script type="text/javascript">
     window.MathJax = {
-  loader: {load: ['[tex]/braket','[tex]/ams','[tex]/amscd']},
-  tex: {packages: {'[+]': ['braket','ams','amscd']}}
-  };
+      loader: {
+        load: ['[tex]/braket', '[tex]/ams', '[tex]/amscd']
+      },
+      tex: {
+        packages: {'[+]': ['braket', 'ams', 'amscd']},
+        inlineMath: [
+          ['$', '$'],
+          ['\\(', '\\)']
+        ],
+        displayMath: [
+          ['$$', '$$'],
+          ['\\[', '\\]']
+        ],
+        processEscapes: true
+      }
+    };
   </script>
-  <script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
+
+  <script
+    type="text/javascript"
+    id="MathJax-script"
+    async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
 
   <!-- Google Analytics -->
   <script>
@@ -114,49 +131,97 @@
   My Research
 </h1>
 
-<ul class="posts">
-  
+<section class="research-list" aria-label="Research highlights">
 
-    
-      <h3>2021</h3>
-    
+  <article class="research-block">
+    <h2>Upflows in the Solar Corona</h2>
+    <div class="research-text-with-figure" style="--figure-width: 50%;">
+      <p>The Sun's outermost atmosphere, the <strong>corona</strong>, reaches temperatures over one million degrees. The thermal expansion of this hot plasma helps drive a continuous outflow known as the <strong>solar wind</strong>. Potential source regions of the solar wind can be identified through Doppler shifts of spectral lines. <strong>Upflow regions</strong> often show persistent <strong>blueshifts</strong> because plasma moving away from the solar surface travels toward the observer. In this project, we studied two upflow regions near an active region with a strong concentration of magnetic fields (one of which is shown in the figure on the right). A unique aspect of this project is that we measured Doppler shifts from <strong>two spacecraft</strong>: Hinode and Solar Orbiter, separated by 50 degrees in heliographic longitude. We found that the Doppler shifts in the two regions exhibit different dependencies on <strong>plasma temperature</strong>, although both may be driven by <strong>pressure gradients</strong> within the same type of coronal structure. High-resolution images taken by Solar Orbiter from a distance of approximately one-third of the Sun–Earth distance reveal small-scale structures known as dynamic fibrils. See <a href="https://doi.org/10.1051/0004-6361/202555618" target="_blank" rel="noopener noreferrer">Zhu et al. (2025)</a> for more details.</p>
+      <figure>
+        <img src="/assets/img/papers/EIS_SPICE_upflow.jpg" alt="Upflow region observed by SPICE and EIS" loading="lazy" />
+        <figcaption>The same upflow region (purple contour) overlaid on coronal emission (left column) and Doppler-shift maps (right column), as observed from two different perspectives.</figcaption>
+      </figure>
+    </div>
+  </article>
 
-    <li itemscope="">
-      <a href="/research/journal/PCH_EIS_AWSoM.html">[Updating] Fe XII and XIII Line Width in the Polar Off-Limb Solar Corona up to 1.5 Solar Radii</a>
-      <p class="post-date"><span><i class="fa fa-calendar" aria-hidden="true"></i> October 24 - <i class="fa fa-clock-o" aria-hidden="true"></i> 
-  
-  
-    less than 1 minute read
-  
+  <article class="research-block">
+    <h2>Coronal Forbidden Lines During Total Solar Eclipse</h2>
+    <div class="research-figures" style="width: 85%; margin-left: auto; margin-right: auto;">
+      <figure>
+        <img src="/assets/img/papers/FeXIV_eclipse.jpg" alt="Maps of the Fe XIV green-line intensity, Doppler shift, and line width during the 2017 total solar eclipse" loading="lazy" />
+        <figcaption>Intensity (left), Doppler shifts (middle), and line widths (right) of the Fe <span class="small-caps">xiv</span> green line at 530.3 nm during the 2017 total solar eclipse.</figcaption>
+      </figure>
+    </div>
+    <p>The visible solar disk is hundreds of thousands of times brighter than the Sun's outer atmosphere, the <strong>corona</strong>. Therefore, our ancestors and early scientists could observe the corona only during <strong>total solar eclipses</strong>, when the Moon completely blocks the light from the solar disk. Although the invention of the coronagraph (which uses an occulter to block the disk) and spaceborne telescopes now allow routine observations of the corona, total solar eclipses remain among the <strong>best opportunities</strong> to observe faint structures in the solar corona.
+    </p>
+    <p>
+    The <strong>Fe <span class="small-caps">xiv</span> line at 530.3 nm</strong>, emitted by iron ions that have lost 13 of their 26 electrons, was first observed during the 1869 total solar eclipse (<a href="https://doi.org/10.2475/ajs.s2-48.144.370" target="_blank" rel="noopener noreferrer">Young 1869</a>; Harkness 1970). Its emission was initially attributed to a new element named <strong>coronium</strong> after the corona. However, <a href="https://doi.org/10.1007/BF01488890" target="_blank" rel="noopener noreferrer">Grotrian (1939)</a> and <a href="https://ui.adsabs.harvard.edu/abs/1943ZA.....22...30E" target="_blank" rel="noopener noreferrer">Edlén (1943)</a> later identified it as Fe <span class="small-caps">xiv</span>, providing the first direct evidence that the solar corona contains <strong>million-degree</strong> plasma. We analyzed spectroscopic observations of the Fe <span class="small-caps">xiv</span> green line and the Fe <span class="small-caps">x</span> red line at 637.4 nm to study <strong>bulk plasma motions</strong>, <strong>ion heating</strong>, and <strong>wave dissipation</strong> across a large field of view in the lower corona. The observations were made by the <a href="https://www.solarwindsherpas.com/" target="_blank" rel="noopener noreferrer">Solar Wind Sherpas</a> team, led by <a href="https://people.ifa.hawaii.edu/faculty/bio/shadia-habbal/" target="_blank" rel="noopener noreferrer">Dr. Shadia Habbal</a>. See <a href="https://doi.org/10.3847/1538-4357/ad3424" target="_blank" rel="noopener noreferrer">Zhu et al. (2024)</a> for more details.
+    </p>
+  </article>
+
+  <article class="research-block">
+    <h2>Ion Temperatures and Preferential Heating</h2>
+    <div class="research-figures" style="width: 85%; margin-left: auto; margin-right: auto;">
+      <figure>
+        <img src="/assets/img/papers/Ti_vs_Z2A.jpg" alt="Ion temperatures versus their charge to mass ratios" loading="lazy" />
+        <figcaption>Ion temperatures vs. charge to mass ratio </figcaption>
+      </figure>
+    </div>
+    <p>Although more than 98% of the mass of the solar atmosphere consists of hydrogen and helium, <strong>heavy ions</strong> (elements with atomic numbers greater than 2, also called “metals”) play important roles in coronal physics. For example, emission from highly ionized heavy ions at extreme-ultraviolet wavelengths results in substantial radiative losses and provides key diagnostics of coronal density and temperature. Additionally, differences in <strong>charge-to-mass ratio</strong> allow heavy-ion species to <strong>resonate</strong> with plasma waves or turbulence at various frequencies, resulting in <strong>additional heating</strong> and temperature anisotropy through a process known as <strong>ion-cyclotron resonance</strong>. We investigate the preferential heating of heavy ions with different charge-to-mass ratios. We found that <strong>heavy-ion temperatures</strong> in coronal holes show a &lt;/strong&gt;nonmonotonic&lt;/strong&gt; dependence on their <strong>charge-to-mass ratios</strong>. See <a href="https://doi.org/10.3847/1538-4357/acc187" target="_blank" rel="noopener noreferrer">Zhu et al. (2023)</a> for more details.</p>
+  </article>
 
 
+  <article class="research-block">
+    <h2>Spectral Line Broadening and Wave Dissipation</h2>
+    <div class="research-text-with-figure" style="--figure-width: 50%;">
+      <p>The outmost atmosphere of the Sun, <strong>corona</strong>, reaches temperatures of more than <strong>a million degrees</strong>, even though it lies far above the Sun's surface. The plasma <strong>waves</strong> may carry sufficient energy from the lower atmosphere and dissipate in the corona. The waves, representing propagating oscillations in both plasma velocity and magnetic field, leave their traces in the <strong>broadening</strong> of spectral lines forming in the corona. I analyzed the variation of <strong>spectral line widths</strong> in polar coronal holes and compare the observations with the global magnetohydrodynamic simulation from Alfvén Wave Solar atmosphere Model (AWSoM) to investigate wave dissipation. See more in <a href="https://doi.org/10.3847/1538-4357/abf1e3" target="_blank" rel="noopener noreferrer">Zhu et al. (2021)</a>. </p>
+      <figure>
+        <img src="/assets/img/papers/FeXII_line_width.jpg" alt="Fe XII spectral-line width measurements in the solar corona" loading="lazy" />
+        <figcaption>Fe <span class="small-caps">xii</span> spectral-line widths in the solar corona.</figcaption>
+      </figure>
+    </div>
+  </article>
 
-</span></p>
-    </li>
+  <article class="research-block">
+    <h2>Solar flares and Mg II spectra</h2>
+    <!-- <figure>
+      <img src="/assets/img/papers/MgII_stark.jpg" alt="Illustration of a solar flare producing X-rays, extreme-ultraviolet radiation, and energetic particles" loading="lazy">
+      <figcaption>Radiation and energetic particles released by a solar flare.</figcaption>
+    </figure> -->
+    <div class="research-figures">
+      <figure>
+        <img src="/assets/img/papers/MgII_stark.jpg" alt="StarkEffect" loading="lazy" />
+        <figcaption>Electron pressure broadening vs. temperature.</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/img/papers/MgII_profiles.jpg" alt="MgIIProfiles" loading="lazy" />
+        <figcaption>Syntheic Mg II profiles (magenta and yellow) and observed ones (blue).</figcaption>
+      </figure>
+    </div>
+    <p><strong>Solar flares</strong> convert magnetic energy into heat, plasma motion, and radiation, while also accelerating energetic particles. I use radiative-hydrodynamic simulations together with observations to study how flare energy is deposited in the lower solar atmosphere and how this energy shapes the <strong>Mg <span class="small-caps">ii</span> spectral line profiles</strong> at the energy deposition sites known as <strong>flare ribbons</strong>. We found that previous simulations underestimate the spectral-line broadening caused by electron pressure (the Stark effect). However, an <strong>ad hoc factor of 30</strong> is required to fully reproduce the observed profiles. See more in <a href="https://doi.org/10.3847/1538-4357/ab2238" target="_blank" rel="noopener noreferrer">Zhu et al. (2019)</a>.  </p>
+  </article>
 
-  
+</section>
 
-    
-      
-      
-      
-    
+<script>
+  document.querySelectorAll('.research-figures img').forEach(function (image) {
+    function setFigureAspectRatio() {
+      if (image.naturalWidth && image.naturalHeight) {
+        image.closest('figure').style.setProperty(
+          '--figure-aspect',
+          image.naturalWidth / image.naturalHeight
+        );
+      }
+    }
 
-    <li itemscope="">
-      <a href="/research/journal/MgII_comic.html">[Updating] Solar Flares &amp; Simulating Mg II Profiles at Flare Ribbons</a>
-      <p class="post-date"><span><i class="fa fa-calendar" aria-hidden="true"></i> October 17 - <i class="fa fa-clock-o" aria-hidden="true"></i> 
-  
-  
-    1 minute read
-  
+    if (image.complete) {
+      setFigureAspectRatio();
+    } else {
+      image.addEventListener('load', setFigureAspectRatio, { once: true });
+    }
+  });
+</script>
 
-
-
-</span></p>
-    </li>
-
-  
-</ul>
 
 
     </div>

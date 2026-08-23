@@ -7,6 +7,20 @@
 		<atom:link href="/rss-feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Density Matrix and its Temporal Evolution in Magnetic Substates</title>
+				
+					<dc:creator>Yingjie Zhu</dc:creator>
+				
+				
+					<description>&lt;p&gt;For a level with angular momentum $J$, the density operator is&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 01 Jul 2026 00:00:00 +0200</pubDate>
+				<link>/blog/journal/density_matrix.html</link>
+				<guid isPermaLink="true">/blog/journal/density_matrix.html</guid>
+			</item>
+		
+			<item>
 				<title>[Updating] Fe XII and XIII Line Width in the Polar Off-Limb Solar Corona up to 1.5 Solar Radii</title>
 				
 					<dc:creator>Yingjie Zhu</dc:creator>
@@ -29,8 +43,8 @@
 					<description>&lt;p class=&quot;text-justify&quot;&gt;I am taking the SPACE597 Space Plasma Physics taught by Prof. Tamas Gombosi this semester. The final project of this graduate-level course is to simulate a coronal mass ejection (CME) and compare the simulations with observations using Alfvén Solar Model (AWSoM) and Eruptive Event Generator, Gibson and Low (EEGGL) on UCAR Cheyenne. I will write down the progress in my project in this blog.&lt;/p&gt;
 &lt;h4 id=&quot;2021-01-02-update-final-report&quot;&gt;2021-01-02 update: Final Report&lt;/h4&gt;
 &lt;p&gt;The final report:&lt;/p&gt;
-&lt;style&gt; .pdf-embed-wrap-03f86222-ec0c-4e15-8799-06d8071c68de { display:flex; flex-direction: column; width: 100%; height: 600px; } .pdf-embed-container-03f86222-ec0c-4e15-8799-06d8071c68de { height: 100%; } .pdf-embed-container-03f86222-ec0c-4e15-8799-06d8071c68de iframe { width: 100%; height: 100%; } &lt;/style&gt;
-&lt;div class=&quot;pdf-embed-wrap-03f86222-ec0c-4e15-8799-06d8071c68de&quot;&gt; &lt;div class=&quot;pdf-embed-container-03f86222-ec0c-4e15-8799-06d8071c68de&quot;&gt; &lt;iframe src=&quot;/assets/pdf/SPACE597_final_yjzhu.pdf&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;
+&lt;style&gt; .pdf-embed-wrap-31f0197f-7184-4fc3-8aec-9670f70a8f7d { display:flex; flex-direction: column; width: 100%; height: 600px; } .pdf-embed-container-31f0197f-7184-4fc3-8aec-9670f70a8f7d { height: 100%; } .pdf-embed-container-31f0197f-7184-4fc3-8aec-9670f70a8f7d iframe { width: 100%; height: 100%; } &lt;/style&gt;
+&lt;div class=&quot;pdf-embed-wrap-31f0197f-7184-4fc3-8aec-9670f70a8f7d&quot;&gt; &lt;div class=&quot;pdf-embed-container-31f0197f-7184-4fc3-8aec-9670f70a8f7d&quot;&gt; &lt;iframe src=&quot;/assets/pdf/SPACE597_final_yjzhu.pdf&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;
 </description>
 				
 				<pubDate>Sat, 02 Jan 2021 00:00:00 +0100</pubDate>

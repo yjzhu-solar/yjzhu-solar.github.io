@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
 
@@ -27,13 +27,30 @@
 
   <script type="text/javascript">
     window.MathJax = {
-  loader: {load: ['[tex]/braket','[tex]/ams','[tex]/amscd']},
-  tex: {packages: {'[+]': ['braket','ams','amscd']}}
-  };
+      loader: {
+        load: ['[tex]/braket', '[tex]/ams', '[tex]/amscd']
+      },
+      tex: {
+        packages: {'[+]': ['braket', 'ams', 'amscd']},
+        inlineMath: [
+          ['$', '$'],
+          ['\\(', '\\)']
+        ],
+        displayMath: [
+          ['$$', '$$'],
+          ['\\[', '\\]']
+        ],
+        processEscapes: true
+      }
+    };
   </script>
-  <script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
+
+  <script
+    type="text/javascript"
+    id="MathJax-script"
+    async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
 
   <!-- Google Analytics -->
   <script>
@@ -114,16 +131,16 @@
   Welcome!
 </h1>
 
-<figure style="text-align: center; float: right" width="320">
-    <img width="300" src="/assets/img/yjzhu_icon.png" />
-    <figcaption>At Makapuu Beach</figcaption> 
+<figure style="text-align: center; float: right; width: 200px;">
+    <img style="width: 100%; height: auto;" src="/assets/img/yjzhu_icon_2026.jpg" />
+    <figcaption class="figure-caption">
+        Solar eclipse outreach during the 2026 partial eclipse at the summit of Jakobshorn, Davos, Switzerland.
+    </figcaption> 
 </figure>
 
-<p>Hi! My name is Yingjie Zhu (朱英杰), and I am a postdoc researcher at ETH Zürich and the Physikalisch Meteorologische Observatorium Davos/World Radiation Center (<a href="https://www.pmodwrc.ch/" target="_blank">PMOD/WRC</a>) working with <a href="https://www.pmodwrc.ch/en/institute/employees/louise-harra/#1513181054556-cff0b604-05ad" target="_blank">Prof. Louise Harra</a> to study formation of the million-degree solar corona and supersonic solar wind. I received my Ph.D. degree from the University of Michigan, where I worked with <a href="https://clasp.engin.umich.edu/people/enrico-landi/" target="_blank">Prof. Enrico Landi</a>. 
-<!-- {: .text-justify} --></p>
+<p class="text-justify">Hi! My name is Yingjie Zhu (朱英杰), and I am a postdoctoral researcher at ETH Zürich and the Physikalisch-Meteorologische Observatorium Davos/World Radiation Center (<a href="https://www.pmodwrc.ch/" target="_blank">PMOD/WRC</a>) working with <a href="https://www.pmodwrc.ch/en/institute/employees/louise-harra/#1513181054556-cff0b604-05ad" target="_blank">Prof. Louise Harra</a> to study formation of the million-degree solar corona and supersonic solar wind. I received my Ph.D. degree from the University of Michigan, where I worked with <a href="https://clasp.engin.umich.edu/people/landi-enrico/" target="_blank">Prof. Enrico Landi</a>.</p>
 
-<p>My research focuses on understanding the physical processes in the solar atmosphere using spectroscopic diagnostics, including coronal heating, flare eruption, coronal mass ejections (CMEs) and the formation of solar wind. Currently, I am working on Hinode/EIS and Solar Orbiter observations of upflows at active region boundaries. I did my Ph.D. in analyzing the spectral line widths in different coronal structures and investigating the wave propagation and heavy ion heating in the solar corona. When I was an undergraduate, I ran radiative hydrodynamics simulations to investigate Mg \({\rm {\scriptsize II}}\) line profiles at solar flare ribbons. You can find more about my research <a href="/menu/writing.html">here</a>. 
-<!-- {: .text-justify} --></p>
+<p class="text-justify">My research focuses on understanding the physical processes in the solar atmosphere using spectroscopic diagnostics, including coronal heating, flare eruption, coronal mass ejections (CMEs) and the formation of solar wind. I did my Ph.D. in analyzing the spectral line widths in different coronal structures and investigating the wave propagation and heavy ion heating in the solar corona. When I was an undergraduate, I ran radiative hydrodynamics simulations to investigate Mg \({\rm {\scriptsize II}}\) line profiles at solar flare ribbons. You can find more about my research <a href="/menu/writing.html">here</a>.</p>
 
 <p>I am a homebody. I love drawing cartoons. <a href="/menu/gallery.html">Here</a> are some of my imperfect works. 
 <!-- {: .text-justify} --></p>

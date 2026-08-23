@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <title>
+    
+      Density Matrix and its Temporal Evolution in Magnetic Substates | Yingjie's Horizon
+    
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/syntax.css">
+  <!-- Use Atom -->
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Yingjie&apos;s Horizon" />
+  <!-- Use RSS-2.0 -->
+  <!--<link href="/rss-feed.xml" type="application/rss+xml" rel="alternate" title="Yingjie's Horizon | a FOOL in solar physics"/>
+  //-->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quattrocento+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script type="text/javascript">
+    window.MathJax = {
+      loader: {
+        load: ['[tex]/braket', '[tex]/ams', '[tex]/amscd']
+      },
+      tex: {
+        packages: {'[+]': ['braket', 'ams', 'amscd']},
+        inlineMath: [
+          ['$', '$'],
+          ['\\(', '\\)']
+        ],
+        displayMath: [
+          ['$$', '$$'],
+          ['\\[', '\\]']
+        ],
+        processEscapes: true
+      }
+    };
+  </script>
+
+  <script
+    type="text/javascript"
+    id="MathJax-script"
+    async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <!-- Use Jekyll SEO plugin -->
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Density Matrix and its Temporal Evolution in Magnetic Substates | Yingjie’s Horizon</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Density Matrix and its Temporal Evolution in Magnetic Substates" />
+<meta name="author" content="Yingjie Zhu" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="For a level with angular momentum $J$, the density operator is" />
+<meta property="og:description" content="For a level with angular momentum $J$, the density operator is" />
+<meta property="og:site_name" content="Yingjie’s Horizon" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-07-01T00:00:00+02:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"/blog/journal/density_matrix.html"},"url":"/blog/journal/density_matrix.html","author":{"@type":"Person","name":"Yingjie Zhu"},"description":"For a level with angular momentum $J$, the density operator is","@type":"BlogPosting","headline":"Density Matrix and its Temporal Evolution in Magnetic Substates","dateModified":"2026-07-01T00:00:00+02:00","datePublished":"2026-07-01T00:00:00+02:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+</head>
+
+
+<body>
+
+  <div class="container">
+    <header class="masthead">
+  <h3 class="masthead-title">
+    <a href="/">Yingjie's Horizon</a>
+    <small class="masthead-subtitle">a FOOL in solar physics</small>
+    <div class="menu">
+  <nav class="menu-content">
+    
+      <a href="/menu/about.html">About</a>
+    
+      <a href="/menu/cv.html">CV</a>
+    
+      <a href="/menu/writing.html">Research</a>
+    
+      <a href="/menu/blog.html">Blog</a>
+    
+      <a href="/menu/gallery.html">Gallery</a>
+    
+      <a href="/menu/resources.html">Resources</a>
+    
+      <a href="/menu/contact.html">Contact</a>
+    
+  </nav>
+  <nav class="social-icons">
+    
+  
+  
+    <a href="https://www.github.com/yjzhu-solar" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="mailto:yingjie.zhu@pmodwrc.ch" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  
+
+  </nav>
+</div>
+
+  </h3>
+</header>
+
+
+    <div class="post-container">
+      <h1>
+  Density Matrix and its Temporal Evolution in Magnetic Substates
+</h1>
+
+
+
+
+
+<p>For a level with angular momentum $J$, the density operator is</p>
+
+\[\hat{\rho}
+=
+\sum_j p_j
+\lvert \psi_j \rangle
+\langle \psi_j \rvert,\]
+
+<p>with $p_j \geq 0$ and</p>
+
+\[\sum_j p_j = 1.\]
+
+<p>When the magnetic substates are chosen as an orthogonal basis, the density
+operator can be represented by the density matrix $\rho_{m,m’}$:</p>
+
+\[\rho =
+\begin{pmatrix}
+\rho_{J,J} &amp; \rho_{J,J-1} &amp; \cdots &amp; \rho_{J,-J+1} &amp; \rho_{J,-J} \\
+\rho_{J-1,J} &amp; \rho_{J-1,J-1} &amp; \cdots &amp; \rho_{J-1,-J+1} &amp; \rho_{J-1,-J} \\
+\vdots &amp; \vdots &amp; \ddots &amp; \vdots &amp; \vdots \\
+\rho_{-J,J} &amp; \rho_{-J,J-1} &amp; \cdots &amp; \rho_{-J,-J+1} &amp; \rho_{-J,-J}
+\end{pmatrix}.\]
+
+<p>The requirements on $p_j$ imply that the density matrix is a
+positive-semidefinite Hermitian matrix. The diagonal elements
+$\rho_{m,m}$ describe the populations of the different magnetic substates,
+whereas the off-diagonal elements describe quantum coherences between
+different substates.</p>
+
+<p>For example, the diagonal density matrix</p>
+
+\[\rho =
+\frac{1}{3}
+\begin{pmatrix}
+1 &amp; 0 &amp; 0 \\
+0 &amp; 1 &amp; 0 \\
+0 &amp; 0 &amp; 1
+\end{pmatrix}\]
+
+<p>describes a probabilistic mixture of an ensemble in the states
+$\lvert\psi_{-1}\rangle$, $\lvert\psi_0\rangle$, and
+$\lvert\psi_1\rangle$, with equal populations.</p>
+
+<p>On the other hand, consider the coherent quantum superposition</p>
+
+\[\lvert\psi\rangle
+=
+\frac{
+\lvert\psi_{-1}\rangle
++
+\lvert\psi_0\rangle
++
+\lvert\psi_1\rangle
+}{\sqrt{3}}.\]
+
+<p>The corresponding density matrix is</p>
+
+\[\rho =
+\frac{1}{3}
+\begin{pmatrix}
+1 &amp; 1 &amp; 1 \\
+1 &amp; 1 &amp; 1 \\
+1 &amp; 1 &amp; 1
+\end{pmatrix},\]
+
+<p>where the non-zero off-diagonal elements represent the quantum coherence
+between the magnetic substates.</p>
+
+<h2 id="temporal-evolution-of-the-density-matrix-and-the-liouvillevon-neumann-equation">Temporal Evolution of the Density Matrix and the Liouville–von Neumann Equation</h2>
+
+<p>Now consider the temporal evolution of the density matrix. For a pure state,
+the state vector follows the Schrödinger equation,</p>
+
+\[i\hbar
+\frac{\mathrm{d}}{\mathrm{d}t}
+\lvert\psi\rangle
+=
+H\lvert\psi\rangle,\]
+
+<p>and its Hermitian conjugate is</p>
+
+\[-i\hbar
+\frac{\mathrm{d}}{\mathrm{d}t}
+\langle\psi\rvert
+=
+\langle\psi\rvert H.\]
+
+<p>Taking the time derivative of</p>
+
+\[\rho = \lvert\psi\rangle\langle\psi\rvert,\]
+
+<p>we obtain</p>
+
+\[\frac{\mathrm{d}\rho}{\mathrm{d}t}
+=
+\frac{\mathrm{d}\lvert\psi\rangle}{\mathrm{d}t}
+\langle\psi\rvert
++
+\lvert\psi\rangle
+\frac{\mathrm{d}\langle\psi\rvert}{\mathrm{d}t}.\]
+
+<p>Substituting the Schrödinger equation gives</p>
+
+\[\frac{\mathrm{d}\rho}{\mathrm{d}t}
+=
+-\frac{i}{\hbar}
+H\lvert\psi\rangle\langle\psi\rvert
++
+\frac{i}{\hbar}
+\lvert\psi\rangle\langle\psi\rvert H,\]
+
+<p>or equivalently,</p>
+
+\[\boxed{
+\frac{\mathrm{d}\rho}{\mathrm{d}t}
+=
+-\frac{i}{\hbar}[H,\rho]
+}.\]
+
+<p>This is the <strong>Liouville–von Neumann equation</strong>.</p>
+
+<h2 id="temporal-evolution-of-the-density-matrix-of-magnetic-substates">Temporal Evolution of the Density Matrix of Magnetic Substates</h2>
+
+<p>For Zeeman splitting, the perturbation Hamiltonian is</p>
+
+\[\hat{H}
+=
+-\boldsymbol{\mu}\cdot\boldsymbol{B}.\]
+
+<p>For a magnetic substate $\lvert m\rangle$,</p>
+
+\[\hat{H}\lvert m\rangle
+=
+m\hbar\omega_B\lvert m\rangle,\]
+
+<p>where the Larmor frequency is</p>
+
+\[\omega_B
+\equiv
+\frac{g_J\mu_B B}{\hbar}.\]
+
+<p>Since the magnetic substates are chosen as the basis of the density matrix,
+the matrix elements are</p>
+
+\[\rho_{m,m'}
+=
+\langle m\rvert\rho\lvert m'\rangle.\]
+
+<p>Applying the Liouville–von Neumann equation,</p>
+
+\[\frac{\mathrm{d}\rho_{m,m'}}{\mathrm{d}t}
+=
+-\frac{i}{\hbar}
+\langle m\rvert[H,\rho]\lvert m'\rangle.\]
+
+<p>Using</p>
+
+\[H\lvert m\rangle
+=
+m\hbar\omega_B\lvert m\rangle,\]
+
+<p>we obtain</p>
+
+\[\frac{\mathrm{d}\rho_{m,m'}}{\mathrm{d}t}
+=
+-i(m-m')\omega_B
+\langle m\rvert\rho\lvert m'\rangle,\]
+
+<p>and therefore</p>
+
+\[\boxed{
+\frac{\mathrm{d}\rho_{m,m'}}{\mathrm{d}t}
+=
+-i(m-m')\omega_B\rho_{m,m'}
+}.\]
+
+<p>A radiative decay term can also be included:</p>
+
+\[\frac{\mathrm{d}\rho_{m,m'}}{\mathrm{d}t}
+=
+-i(m-m')\omega_B\rho_{m,m'}
+-
+\frac{\rho_{m,m'}}{\tau},\]
+
+<p>where</p>
+
+\[\tau = \frac{1}{A_{ul}}\]
+
+<p>is the characteristic lifetime of the upper energy level.</p>
+
+<p>For magnetic-dipole (M1) transitions in the solar corona,</p>
+
+\[\frac{1}{\tau} \ll \omega_B.\]
+
+<p>The off-diagonal elements therefore undergo rapid oscillations, whereas
+the diagonal elements ($m=m’$) do not experience Larmor precession.</p>
+
+<p>When averaged over timescales much longer than the Larmor period, the
+rapidly oscillating off-diagonal terms vanish:</p>
+
+\[\rho_{m,m'} \rightarrow 0,
+\qquad m\neq m'.\]
+
+<p>Thus,</p>
+
+\[\rho_{m,m'}
+=
+\delta_{m,m'}\rho_{m,m}.\]
+
+<p>This is why, for coronal M1 transitions in the strong-field or
+saturated-Hanle regime, the magnetic substates can be treated as
+non-coherent: the density matrix is effectively diagonal in the magnetic
+field reference frame.</p>
+
+
+<span class="post-date">
+  Written on
+  
+  July
+  1st
+    ,
+  2026
+  by
+  
+    Yingjie Zhu
+  
+</span>
+
+<div class="post-date">Feel free to share!</div>
+  <div class="sharing-icons">
+    <a href="https://twitter.com/intent/tweet?text=Density Matrix and its Temporal Evolution in Magnetic Substates&amp;url=/blog/journal/density_matrix.html" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=/blog/journal/density_matrix.html&amp;title=Density Matrix and its Temporal Evolution in Magnetic Substates" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+<div class="related">
+  <h1 >See also</h1>
+  
+  <ul class="related-posts">
+    
+      
+        
+        
+      
+        
+          <li>
+            <h3>
+              <a href="/research/journal/PCH_EIS_AWSoM.html">
+                [Updating] Fe XII and XIII Line Width in the Polar Off-Limb Solar Corona up to 1.5 Solar Radii
+                <!--<img src="/images/">-->
+                <!--<small>October 24, 2021</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+        
+          <li>
+            <h3>
+              <a href="/blog/journal/space597proj.html">
+                SPACE597: Simulating a Coronal Mass Ejection
+                <!--<img src="/images/">-->
+                <!--<small>January 2, 2021</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+    
+      
+        
+        
+      
+    
+      
+        
+        
+      
+    
+  </ul>
+</div>
+
+
+
+
+    </div>
+
+    <footer class="footer">
+  
+  
+  
+    <a href="https://www.github.com/yjzhu-solar" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+  
+
+  
+  
+    <a href="mailto:yingjie.zhu@pmodwrc.ch" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  
+
+  <!-- <div class="post-date"><a href="/menu/about.html">Yingjie's Horizon | a FOOL in solar physics by Yingjie Zhu</a></div> -->
+  <div class="post-date">"Fearing that I might not be a jewel, I made no effort to polish myself;<br> but half-believing that I might be a jewel, I could not rest content among the common clay." <br> Atsushi Nakajima, the Moon over the Mountain</div>
+</footer>
+
+  </div>
+
+</body>
+</html>
+
+  

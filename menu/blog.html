@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
 
@@ -27,13 +27,30 @@
 
   <script type="text/javascript">
     window.MathJax = {
-  loader: {load: ['[tex]/braket','[tex]/ams','[tex]/amscd']},
-  tex: {packages: {'[+]': ['braket','ams','amscd']}}
-  };
+      loader: {
+        load: ['[tex]/braket', '[tex]/ams', '[tex]/amscd']
+      },
+      tex: {
+        packages: {'[+]': ['braket', 'ams', 'amscd']},
+        inlineMath: [
+          ['$', '$'],
+          ['\\(', '\\)']
+        ],
+        displayMath: [
+          ['$$', '$$'],
+          ['\\[', '\\]']
+        ],
+        processEscapes: true
+      }
+    };
   </script>
-  <script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
+
+  <script
+    type="text/javascript"
+    id="MathJax-script"
+    async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
 
   <!-- Google Analytics -->
   <script>
@@ -115,6 +132,25 @@
 </h1>
 
 <ul class="posts">
+  
+
+    
+      <h3>2026</h3>
+    
+
+    <li itemscope="">
+      <a href="/blog/journal/density_matrix.html">Density Matrix and its Temporal Evolution in Magnetic Substates</a>
+      <p class="post-date"><span><i class="fa fa-calendar" aria-hidden="true"></i> July 1 - <i class="fa fa-clock-o" aria-hidden="true"></i> 
+  
+  
+    2 minute read
+  
+
+
+
+</span></p>
+    </li>
+
   
 
     

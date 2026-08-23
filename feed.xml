@@ -1,10 +1,222 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2026-08-17T14:53:55+02:00</updated><id>/feed.xml</id><title type="html">Yingjie’s Horizon</title><subtitle>a FOOL in solar physics</subtitle><author><name>Yingjie Zhu</name></author><entry><title type="html">[Updating] Fe XII and XIII Line Width in the Polar Off-Limb Solar Corona up to 1.5 Solar Radii</title><link href="/research/journal/PCH_EIS_AWSoM.html" rel="alternate" type="text/html" title="[Updating] Fe XII and XIII Line Width in the Polar Off-Limb Solar Corona up to 1.5 Solar Radii" /><published>2021-10-24T00:00:00+02:00</published><updated>2021-10-24T00:00:00+02:00</updated><id>/research/journal/PCH_EIS_AWSoM</id><content type="html" xml:base="/research/journal/PCH_EIS_AWSoM.html">&lt;p&gt;The solar corona is the outermost part of the solar atmosphere. Due to its low density, scientists usually observe the corona during the solar eclipse or by ultra-violet imaging in space (see Figure 1). One may wonder that the corona should be cooler than the surface since the core, where nuclear fusion undergoes, is the hottest. However, the temperature of the solar atmosphere increases drastically below the corona (see Figure 2). The corona is actually filled with million-degree and highly-ionized plasma.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2026-08-23T19:30:41+02:00</updated><id>/feed.xml</id><title type="html">Yingjie’s Horizon</title><subtitle>a FOOL in solar physics</subtitle><author><name>Yingjie Zhu</name></author><entry><title type="html">Density Matrix and its Temporal Evolution in Magnetic Substates</title><link href="/blog/journal/density_matrix.html" rel="alternate" type="text/html" title="Density Matrix and its Temporal Evolution in Magnetic Substates" /><published>2026-07-01T00:00:00+02:00</published><updated>2026-07-01T00:00:00+02:00</updated><id>/blog/journal/density_matrix</id><content type="html" xml:base="/blog/journal/density_matrix.html">&lt;p&gt;For a level with angular momentum $J$, the density operator is&lt;/p&gt;
+
+\[\hat{\rho}
+=
+\sum_j p_j
+\lvert \psi_j \rangle
+\langle \psi_j \rvert,\]
+
+&lt;p&gt;with $p_j \geq 0$ and&lt;/p&gt;
+
+\[\sum_j p_j = 1.\]
+
+&lt;p&gt;When the magnetic substates are chosen as an orthogonal basis, the density
+operator can be represented by the density matrix $\rho_{m,m’}$:&lt;/p&gt;
+
+\[\rho =
+\begin{pmatrix}
+\rho_{J,J} &amp;amp; \rho_{J,J-1} &amp;amp; \cdots &amp;amp; \rho_{J,-J+1} &amp;amp; \rho_{J,-J} \\
+\rho_{J-1,J} &amp;amp; \rho_{J-1,J-1} &amp;amp; \cdots &amp;amp; \rho_{J-1,-J+1} &amp;amp; \rho_{J-1,-J} \\
+\vdots &amp;amp; \vdots &amp;amp; \ddots &amp;amp; \vdots &amp;amp; \vdots \\
+\rho_{-J,J} &amp;amp; \rho_{-J,J-1} &amp;amp; \cdots &amp;amp; \rho_{-J,-J+1} &amp;amp; \rho_{-J,-J}
+\end{pmatrix}.\]
+
+&lt;p&gt;The requirements on $p_j$ imply that the density matrix is a
+positive-semidefinite Hermitian matrix. The diagonal elements
+$\rho_{m,m}$ describe the populations of the different magnetic substates,
+whereas the off-diagonal elements describe quantum coherences between
+different substates.&lt;/p&gt;
+
+&lt;p&gt;For example, the diagonal density matrix&lt;/p&gt;
+
+\[\rho =
+\frac{1}{3}
+\begin{pmatrix}
+1 &amp;amp; 0 &amp;amp; 0 \\
+0 &amp;amp; 1 &amp;amp; 0 \\
+0 &amp;amp; 0 &amp;amp; 1
+\end{pmatrix}\]
+
+&lt;p&gt;describes a probabilistic mixture of an ensemble in the states
+$\lvert\psi_{-1}\rangle$, $\lvert\psi_0\rangle$, and
+$\lvert\psi_1\rangle$, with equal populations.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, consider the coherent quantum superposition&lt;/p&gt;
+
+\[\lvert\psi\rangle
+=
+\frac{
+\lvert\psi_{-1}\rangle
++
+\lvert\psi_0\rangle
++
+\lvert\psi_1\rangle
+}{\sqrt{3}}.\]
+
+&lt;p&gt;The corresponding density matrix is&lt;/p&gt;
+
+\[\rho =
+\frac{1}{3}
+\begin{pmatrix}
+1 &amp;amp; 1 &amp;amp; 1 \\
+1 &amp;amp; 1 &amp;amp; 1 \\
+1 &amp;amp; 1 &amp;amp; 1
+\end{pmatrix},\]
+
+&lt;p&gt;where the non-zero off-diagonal elements represent the quantum coherence
+between the magnetic substates.&lt;/p&gt;
+
+&lt;h2 id=&quot;temporal-evolution-of-the-density-matrix-and-the-liouvillevon-neumann-equation&quot;&gt;Temporal Evolution of the Density Matrix and the Liouville–von Neumann Equation&lt;/h2&gt;
+
+&lt;p&gt;Now consider the temporal evolution of the density matrix. For a pure state,
+the state vector follows the Schrödinger equation,&lt;/p&gt;
+
+\[i\hbar
+\frac{\mathrm{d}}{\mathrm{d}t}
+\lvert\psi\rangle
+=
+H\lvert\psi\rangle,\]
+
+&lt;p&gt;and its Hermitian conjugate is&lt;/p&gt;
+
+\[-i\hbar
+\frac{\mathrm{d}}{\mathrm{d}t}
+\langle\psi\rvert
+=
+\langle\psi\rvert H.\]
+
+&lt;p&gt;Taking the time derivative of&lt;/p&gt;
+
+\[\rho = \lvert\psi\rangle\langle\psi\rvert,\]
+
+&lt;p&gt;we obtain&lt;/p&gt;
+
+\[\frac{\mathrm{d}\rho}{\mathrm{d}t}
+=
+\frac{\mathrm{d}\lvert\psi\rangle}{\mathrm{d}t}
+\langle\psi\rvert
++
+\lvert\psi\rangle
+\frac{\mathrm{d}\langle\psi\rvert}{\mathrm{d}t}.\]
+
+&lt;p&gt;Substituting the Schrödinger equation gives&lt;/p&gt;
+
+\[\frac{\mathrm{d}\rho}{\mathrm{d}t}
+=
+-\frac{i}{\hbar}
+H\lvert\psi\rangle\langle\psi\rvert
++
+\frac{i}{\hbar}
+\lvert\psi\rangle\langle\psi\rvert H,\]
+
+&lt;p&gt;or equivalently,&lt;/p&gt;
+
+\[\boxed{
+\frac{\mathrm{d}\rho}{\mathrm{d}t}
+=
+-\frac{i}{\hbar}[H,\rho]
+}.\]
+
+&lt;p&gt;This is the &lt;strong&gt;Liouville–von Neumann equation&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;temporal-evolution-of-the-density-matrix-of-magnetic-substates&quot;&gt;Temporal Evolution of the Density Matrix of Magnetic Substates&lt;/h2&gt;
+
+&lt;p&gt;For Zeeman splitting, the perturbation Hamiltonian is&lt;/p&gt;
+
+\[\hat{H}
+=
+-\boldsymbol{\mu}\cdot\boldsymbol{B}.\]
+
+&lt;p&gt;For a magnetic substate $\lvert m\rangle$,&lt;/p&gt;
+
+\[\hat{H}\lvert m\rangle
+=
+m\hbar\omega_B\lvert m\rangle,\]
+
+&lt;p&gt;where the Larmor frequency is&lt;/p&gt;
+
+\[\omega_B
+\equiv
+\frac{g_J\mu_B B}{\hbar}.\]
+
+&lt;p&gt;Since the magnetic substates are chosen as the basis of the density matrix,
+the matrix elements are&lt;/p&gt;
+
+\[\rho_{m,m&apos;}
+=
+\langle m\rvert\rho\lvert m&apos;\rangle.\]
+
+&lt;p&gt;Applying the Liouville–von Neumann equation,&lt;/p&gt;
+
+\[\frac{\mathrm{d}\rho_{m,m&apos;}}{\mathrm{d}t}
+=
+-\frac{i}{\hbar}
+\langle m\rvert[H,\rho]\lvert m&apos;\rangle.\]
+
+&lt;p&gt;Using&lt;/p&gt;
+
+\[H\lvert m\rangle
+=
+m\hbar\omega_B\lvert m\rangle,\]
+
+&lt;p&gt;we obtain&lt;/p&gt;
+
+\[\frac{\mathrm{d}\rho_{m,m&apos;}}{\mathrm{d}t}
+=
+-i(m-m&apos;)\omega_B
+\langle m\rvert\rho\lvert m&apos;\rangle,\]
+
+&lt;p&gt;and therefore&lt;/p&gt;
+
+\[\boxed{
+\frac{\mathrm{d}\rho_{m,m&apos;}}{\mathrm{d}t}
+=
+-i(m-m&apos;)\omega_B\rho_{m,m&apos;}
+}.\]
+
+&lt;p&gt;A radiative decay term can also be included:&lt;/p&gt;
+
+\[\frac{\mathrm{d}\rho_{m,m&apos;}}{\mathrm{d}t}
+=
+-i(m-m&apos;)\omega_B\rho_{m,m&apos;}
+-
+\frac{\rho_{m,m&apos;}}{\tau},\]
+
+&lt;p&gt;where&lt;/p&gt;
+
+\[\tau = \frac{1}{A_{ul}}\]
+
+&lt;p&gt;is the characteristic lifetime of the upper energy level.&lt;/p&gt;
+
+&lt;p&gt;For magnetic-dipole (M1) transitions in the solar corona,&lt;/p&gt;
+
+\[\frac{1}{\tau} \ll \omega_B.\]
+
+&lt;p&gt;The off-diagonal elements therefore undergo rapid oscillations, whereas
+the diagonal elements ($m=m’$) do not experience Larmor precession.&lt;/p&gt;
+
+&lt;p&gt;When averaged over timescales much longer than the Larmor period, the
+rapidly oscillating off-diagonal terms vanish:&lt;/p&gt;
+
+\[\rho_{m,m&apos;} \rightarrow 0,
+\qquad m\neq m&apos;.\]
+
+&lt;p&gt;Thus,&lt;/p&gt;
+
+\[\rho_{m,m&apos;}
+=
+\delta_{m,m&apos;}\rho_{m,m}.\]
+
+&lt;p&gt;This is why, for coronal M1 transitions in the strong-field or
+saturated-Hanle regime, the magnetic substates can be treated as
+non-coherent: the density matrix is effectively diagonal in the magnetic
+field reference frame.&lt;/p&gt;</content><author><name>Yingjie Zhu</name></author><category term="blog" /><category term="journal" /><category term="documentation" /><category term="QM" /><category term="Spectropolarimetry" /><summary type="html">For a level with angular momentum $J$, the density operator is</summary></entry><entry><title type="html">[Updating] Fe XII and XIII Line Width in the Polar Off-Limb Solar Corona up to 1.5 Solar Radii</title><link href="/research/journal/PCH_EIS_AWSoM.html" rel="alternate" type="text/html" title="[Updating] Fe XII and XIII Line Width in the Polar Off-Limb Solar Corona up to 1.5 Solar Radii" /><published>2021-10-24T00:00:00+02:00</published><updated>2021-10-24T00:00:00+02:00</updated><id>/research/journal/PCH_EIS_AWSoM</id><content type="html" xml:base="/research/journal/PCH_EIS_AWSoM.html">&lt;p&gt;The solar corona is the outermost part of the solar atmosphere. Due to its low density, scientists usually observe the corona during the solar eclipse or by ultra-violet imaging in space (see Figure 1). One may wonder that the corona should be cooler than the surface since the core, where nuclear fusion undergoes, is the hottest. However, the temperature of the solar atmosphere increases drastically below the corona (see Figure 2). The corona is actually filled with million-degree and highly-ionized plasma.&lt;/p&gt;
 
 &lt;p&gt;The heating of the solar corona is one of the major mysteries&lt;/p&gt;</content><author><name>Yingjie Zhu</name></author><category term="research" /><category term="journal" /><category term="documentation" /><category term="coronal hole" /><category term="wave" /><category term="coronal heating" /><category term="Hinode/EIS" /><category term="AWSoM" /><summary type="html">The solar corona is the outermost part of the solar atmosphere. Due to its low density, scientists usually observe the corona during the solar eclipse or by ultra-violet imaging in space (see Figure 1). One may wonder that the corona should be cooler than the surface since the core, where nuclear fusion undergoes, is the hottest. However, the temperature of the solar atmosphere increases drastically below the corona (see Figure 2). The corona is actually filled with million-degree and highly-ionized plasma.</summary></entry><entry><title type="html">SPACE597: Simulating a Coronal Mass Ejection</title><link href="/blog/journal/space597proj.html" rel="alternate" type="text/html" title="SPACE597: Simulating a Coronal Mass Ejection" /><published>2021-01-02T00:00:00+01:00</published><updated>2021-01-02T00:00:00+01:00</updated><id>/blog/journal/space597proj</id><content type="html" xml:base="/blog/journal/space597proj.html">&lt;p class=&quot;text-justify&quot;&gt;I am taking the SPACE597 Space Plasma Physics taught by Prof. Tamas Gombosi this semester. The final project of this graduate-level course is to simulate a coronal mass ejection (CME) and compare the simulations with observations using Alfvén Solar Model (AWSoM) and Eruptive Event Generator, Gibson and Low (EEGGL) on UCAR Cheyenne. I will write down the progress in my project in this blog.&lt;/p&gt;
 &lt;h4 id=&quot;2021-01-02-update-final-report&quot;&gt;2021-01-02 update: Final Report&lt;/h4&gt;
 &lt;p&gt;The final report:&lt;/p&gt;
-&lt;style&gt; .pdf-embed-wrap-acfb2c7f-25e2-44f0-8838-c27d1fc6b029 { display:flex; flex-direction: column; width: 100%; height: 600px; } .pdf-embed-container-acfb2c7f-25e2-44f0-8838-c27d1fc6b029 { height: 100%; } .pdf-embed-container-acfb2c7f-25e2-44f0-8838-c27d1fc6b029 iframe { width: 100%; height: 100%; } &lt;/style&gt;
-&lt;div class=&quot;pdf-embed-wrap-acfb2c7f-25e2-44f0-8838-c27d1fc6b029&quot;&gt; &lt;div class=&quot;pdf-embed-container-acfb2c7f-25e2-44f0-8838-c27d1fc6b029&quot;&gt; &lt;iframe src=&quot;/assets/pdf/SPACE597_final_yjzhu.pdf&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;
+&lt;style&gt; .pdf-embed-wrap-fc25d658-3539-4b58-a3b4-51e0a824d473 { display:flex; flex-direction: column; width: 100%; height: 600px; } .pdf-embed-container-fc25d658-3539-4b58-a3b4-51e0a824d473 { height: 100%; } .pdf-embed-container-fc25d658-3539-4b58-a3b4-51e0a824d473 iframe { width: 100%; height: 100%; } &lt;/style&gt;
+&lt;div class=&quot;pdf-embed-wrap-fc25d658-3539-4b58-a3b4-51e0a824d473&quot;&gt; &lt;div class=&quot;pdf-embed-container-fc25d658-3539-4b58-a3b4-51e0a824d473&quot;&gt; &lt;iframe src=&quot;/assets/pdf/SPACE597_final_yjzhu.pdf&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;
 
 &lt;h4 id=&quot;2020-11-07-update-introduction-of-the-project-on-the-4th-swmf-meeting&quot;&gt;2020-11-07 update: Introduction of the project on the 4th SWMF meeting&lt;/h4&gt;
 &lt;hr /&gt;
@@ -50,8 +262,8 @@
   &lt;figcaption&gt;&lt;i&gt;&quot;Synthetic observations of the instruments in the future: DKIST and UCoMP.&quot;&lt;/i&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;</content><author><name>Yingjie Zhu</name></author><category term="blog" /><category term="journal" /><category term="documentation" /><category term="MHD" /><category term="SWMF. AWSoM" /><category term="EEGGL" /><summary type="html">I am taking the SPACE597 Space Plasma Physics taught by Prof. Tamas Gombosi this semester. The final project of this graduate-level course is to simulate a coronal mass ejection (CME) and compare the simulations with observations using Alfvén Solar Model (AWSoM) and Eruptive Event Generator, Gibson and Low (EEGGL) on UCAR Cheyenne. I will write down the progress in my project in this blog. 2021-01-02 update: Final Report The final report:</summary></entry><entry><title type="html">PHYSICS511: A Problem Set and Solution of Zeeman Effect and Milne-Eddington Approximation</title><link href="/blog/journal/phy511ps.html" rel="alternate" type="text/html" title="PHYSICS511: A Problem Set and Solution of Zeeman Effect and Milne-Eddington Approximation" /><published>2020-11-08T00:00:00+01:00</published><updated>2020-11-08T00:00:00+01:00</updated><id>/blog/journal/phy511ps</id><content type="html" xml:base="/blog/journal/phy511ps.html">&lt;p&gt;A problem set and solutions which introduces the basics ideas of Zeeman effect and one naive hands-on practice which is developed in PHYSICS511.&lt;/p&gt;
 
-&lt;style&gt; .pdf-embed-wrap-d66fb7f2-b3ff-4afd-b0f0-d81d5ac9483f { display:flex; flex-direction: column; width: 100%; height: 600px; } .pdf-embed-container-d66fb7f2-b3ff-4afd-b0f0-d81d5ac9483f { height: 100%; } .pdf-embed-container-d66fb7f2-b3ff-4afd-b0f0-d81d5ac9483f iframe { width: 100%; height: 100%; } &lt;/style&gt;
-&lt;div class=&quot;pdf-embed-wrap-d66fb7f2-b3ff-4afd-b0f0-d81d5ac9483f&quot;&gt; &lt;div class=&quot;pdf-embed-container-d66fb7f2-b3ff-4afd-b0f0-d81d5ac9483f&quot;&gt; &lt;iframe src=&quot;/assets/pdf/PHY511_PS_yjzhu.pdf&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;</content><author><name>Yingjie Zhu</name></author><category term="blog" /><category term="journal" /><category term="documentation" /><category term="Zeeman effect" /><category term="ME inversion" /><summary type="html">A problem set and solutions which introduces the basics ideas of Zeeman effect and one naive hands-on practice which is developed in PHYSICS511.</summary></entry><entry><title type="html">[Updating] Solar Flares &amp;amp; Simulating Mg II Profiles at Flare Ribbons</title><link href="/research/journal/MgII_comic.html" rel="alternate" type="text/html" title="[Updating] Solar Flares &amp;amp; Simulating Mg II Profiles at Flare Ribbons" /><published>2020-10-17T00:00:00+02:00</published><updated>2020-10-17T00:00:00+02:00</updated><id>/research/journal/MgII_comic</id><content type="html" xml:base="/research/journal/MgII_comic.html">&lt;figure class=&quot;right&quot; style=&quot;width:40%&quot;&gt;
+&lt;style&gt; .pdf-embed-wrap-9e40aed5-a8a3-474b-bc35-e4c790a32807 { display:flex; flex-direction: column; width: 100%; height: 600px; } .pdf-embed-container-9e40aed5-a8a3-474b-bc35-e4c790a32807 { height: 100%; } .pdf-embed-container-9e40aed5-a8a3-474b-bc35-e4c790a32807 iframe { width: 100%; height: 100%; } &lt;/style&gt;
+&lt;div class=&quot;pdf-embed-wrap-9e40aed5-a8a3-474b-bc35-e4c790a32807&quot;&gt; &lt;div class=&quot;pdf-embed-container-9e40aed5-a8a3-474b-bc35-e4c790a32807&quot;&gt; &lt;iframe src=&quot;/assets/pdf/PHY511_PS_yjzhu.pdf&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; &lt;/div&gt; &lt;/div&gt;</content><author><name>Yingjie Zhu</name></author><category term="blog" /><category term="journal" /><category term="documentation" /><category term="Zeeman effect" /><category term="ME inversion" /><summary type="html">A problem set and solutions which introduces the basics ideas of Zeeman effect and one naive hands-on practice which is developed in PHYSICS511.</summary></entry><entry><title type="html">[Updating] Solar Flares &amp;amp; Simulating Mg II Profiles at Flare Ribbons</title><link href="/research/journal/MgII_comic.html" rel="alternate" type="text/html" title="[Updating] Solar Flares &amp;amp; Simulating Mg II Profiles at Flare Ribbons" /><published>2020-10-17T00:00:00+02:00</published><updated>2020-10-17T00:00:00+02:00</updated><id>/research/journal/MgII_comic</id><content type="html" xml:base="/research/journal/MgII_comic.html">&lt;figure class=&quot;right&quot; style=&quot;width:40%&quot;&gt;
   &lt;img src=&quot;/assets/img/Mgii/20140329_flare_aia304.png&quot; width=&quot;600&quot; /&gt;
   &lt;figcaption&gt;&lt;i&gt;Flare ribbons of the X1.1-class flare observed in SDO/AIA 304 channel on 2014 March 29. Courtesy of NASA/SDO and the AIA, EVE, and HMI science teams.&lt;/i&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;

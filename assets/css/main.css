@@ -22,6 +22,9 @@ body {
   font-size: 18px;
   color: #515151;
   line-height: 1.75rem;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 @media (max-width: 30em) {
@@ -82,7 +85,7 @@ hr {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  width: min(1024px, 90vw);
 }
 
 /*48em*/
@@ -546,4 +549,116 @@ th, td {
 
 .text-justify {
   text-align: justify;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+/* Research highlights */
+.research-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.research-block {
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.research-block:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.research-block h2 {
+  margin-top: 0;
+}
+
+.research-text-with-figure {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--figure-width, 40%);
+  align-items: start;
+  gap: 1.5rem;
+}
+
+.research-text-with-figure figure {
+  width: 100%;
+  margin: 0;
+}
+
+.research-text-with-figure p {
+  margin-top: 0;
+}
+
+.research-block figure {
+  width: 100%;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.research-figures {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.research-figures figure {
+  flex: var(--figure-aspect, 1) 1 0;
+  min-width: 0;
+  width: auto;
+}
+
+.research-figures img {
+  width: 100%;
+  height: auto;
+  object-fit: initial;
+}
+
+.research-block img {
+  display: block;
+  width: 100%;
+  max-height: 32rem;
+  object-fit: contain;
+}
+
+.research-block figcaption,
+.figure-caption {
+  margin-top: 0.5rem;
+  color: #777;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+.research-block p {
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+@media (max-width: 30rem) {
+  .research-list {
+    gap: 2rem;
+  }
+
+  .research-block {
+    padding-bottom: 2rem;
+  }
+
+  .research-block p {
+    text-align: left;
+  }
+
+  .research-figures {
+    flex-direction: column;
+  }
+
+  .research-figures figure {
+    width: 100%;
+  }
+
+  .research-text-with-figure {
+    grid-template-columns: 1fr;
+  }
+
 }

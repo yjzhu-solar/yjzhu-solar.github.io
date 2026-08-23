@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
 
@@ -27,13 +27,30 @@
 
   <script type="text/javascript">
     window.MathJax = {
-  loader: {load: ['[tex]/braket','[tex]/ams','[tex]/amscd']},
-  tex: {packages: {'[+]': ['braket','ams','amscd']}}
-  };
+      loader: {
+        load: ['[tex]/braket', '[tex]/ams', '[tex]/amscd']
+      },
+      tex: {
+        packages: {'[+]': ['braket', 'ams', 'amscd']},
+        inlineMath: [
+          ['$', '$'],
+          ['\\(', '\\)']
+        ],
+        displayMath: [
+          ['$$', '$$'],
+          ['\\[', '\\]']
+        ],
+        processEscapes: true
+      }
+    };
   </script>
-  <script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
+
+  <script
+    type="text/javascript"
+    id="MathJax-script"
+    async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
 
   <!-- Google Analytics -->
   <script>
@@ -114,7 +131,7 @@
   Welcome to My Horizon!
 </h1>
 
-<p class="text-justify">My name is Yingjie Zhu (朱英杰). I am a postdoc researcher at ETH Zürich and the Physikalisch-Meteorologische Observatorium Davos/World Radiation Center (<a href="https://www.pmodwrc.ch/" target="_blank">PMOD/WRC</a>) working with <a href="https://www.pmodwrc.ch/en/institute/employees/louise-harra/#1513181054556-cff0b604-05ad" target="_blank">Prof. Louise Harra</a>. I did my Ph.D. at the Department of Climate and Space Sciences and Engineering (<a href="https://clasp.engin.umich.edu/" target="_blank">CLaSP</a>), the University of Michigan, where I worked with <a href="https://clasp.engin.umich.edu/people/enrico-landi/" target="_blank">Dr. Enrico Landi</a> to understand different physical processes in the solar atmosphere with spectroscopic observations made by Hinode/EIS and SOHO/SUMER. I also used RADYN and RH codes to study Mg \({\rm {\scriptsize II}}\) line profiles at solar flare ribbons when I was an undergraduate.</p>
+<p class="text-justify">My name is Yingjie Zhu (朱英杰). I am a postdoc researcher at ETH Zürich and the Physikalisch-Meteorologische Observatorium Davos/World Radiation Center (<a href="https://www.pmodwrc.ch/" target="_blank">PMOD/WRC</a>) working with <a href="https://www.pmodwrc.ch/en/institute/employees/louise-harra/#1513181054556-cff0b604-05ad" target="_blank">Prof. Louise Harra</a>. I did my Ph.D. at the Department of Climate and Space Sciences and Engineering (<a href="https://clasp.engin.umich.edu/" target="_blank">CLaSP</a>), the University of Michigan, where I worked with <a href="https://clasp.engin.umich.edu/people/landi-enrico/" target="_blank">Dr. Enrico Landi</a> to understand different physical processes in the solar atmosphere with spectroscopic observations made by Hinode/EIS and SOHO/SUMER. I also used RADYN and RH codes to study Mg \({\rm {\scriptsize II}}\) line profiles at solar flare ribbons when I was an undergraduate.</p>
 
 <!-- I am a forth-year PhD student at the Department of Climate and Space Sciences and Engineering ([CLaSP](https://clasp.engin.umich.edu/){:target="_blank"}), University of Michigan. I work with [Dr. Enrico Landi](https://clasp.engin.umich.edu/people/enrico-landi/){:target="_blank"} to understand different physical processes in the solar atmosphere with spectroscopic (and polarimetric in the future) observations. Currently, I am working on Hinode/EIS and SOHO/SUMER observations of the off-limb corona.
 {: .text-justify} -->
@@ -131,7 +148,7 @@ During the summer of 2018, I worked with Dr. Adam Kowalski at the National Solar
 
 <figure>
   <img src="/assets/img/sun_1.jpg" width="width:100%" class="center" />
-  <figcaption>One of My Favorite Scenes in the Movie "5 Centimeters Per Second"</figcaption>
+  <figcaption>One of my favorite scenes from 5 Centimeters per Second (2007), directed by Makoto Shinkai. © CoMix Wave Films.</figcaption>
 </figure>
 
 <h3 id="about-the-theme">About the Theme</h3>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
 
@@ -27,13 +27,30 @@
 
   <script type="text/javascript">
     window.MathJax = {
-  loader: {load: ['[tex]/braket','[tex]/ams','[tex]/amscd']},
-  tex: {packages: {'[+]': ['braket','ams','amscd']}}
-  };
+      loader: {
+        load: ['[tex]/braket', '[tex]/ams', '[tex]/amscd']
+      },
+      tex: {
+        packages: {'[+]': ['braket', 'ams', 'amscd']},
+        inlineMath: [
+          ['$', '$'],
+          ['\\(', '\\)']
+        ],
+        displayMath: [
+          ['$$', '$$'],
+          ['\\[', '\\]']
+        ],
+        processEscapes: true
+      }
+    };
   </script>
-  <script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
+
+  <script
+    type="text/javascript"
+    id="MathJax-script"
+    async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
 
   <!-- Google Analytics -->
   <script>
@@ -164,6 +181,19 @@
         
           <li>
             <h3>
+              <a href="/blog/journal/density_matrix.html">
+                Density Matrix and its Temporal Evolution in Magnetic Substates
+                <!--<img src="/images/">-->
+                <!--<small>July 1, 2026</small>-->
+              </a>
+            </h3>
+          </li>
+          
+        
+      
+        
+          <li>
+            <h3>
               <a href="/research/journal/PCH_EIS_AWSoM.html">
                 [Updating] Fe XII and XIII Line Width in the Polar Off-Limb Solar Corona up to 1.5 Solar Radii
                 <!--<img src="/images/">-->
@@ -181,19 +211,6 @@
                 SPACE597: Simulating a Coronal Mass Ejection
                 <!--<img src="/images/">-->
                 <!--<small>January 2, 2021</small>-->
-              </a>
-            </h3>
-          </li>
-          
-        
-      
-        
-          <li>
-            <h3>
-              <a href="/blog/journal/phy511ps.html">
-                 PHYSICS511: A Problem Set and Solution of Zeeman Effect and Milne-Eddington Approximation
-                <!--<img src="/images/">-->
-                <!--<small>November 8, 2020</small>-->
               </a>
             </h3>
           </li>

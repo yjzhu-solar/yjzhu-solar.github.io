@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
 
@@ -27,13 +27,30 @@
 
   <script type="text/javascript">
     window.MathJax = {
-  loader: {load: ['[tex]/braket','[tex]/ams','[tex]/amscd']},
-  tex: {packages: {'[+]': ['braket','ams','amscd']}}
-  };
+      loader: {
+        load: ['[tex]/braket', '[tex]/ams', '[tex]/amscd']
+      },
+      tex: {
+        packages: {'[+]': ['braket', 'ams', 'amscd']},
+        inlineMath: [
+          ['$', '$'],
+          ['\\(', '\\)']
+        ],
+        displayMath: [
+          ['$$', '$$'],
+          ['\\[', '\\]']
+        ],
+        processEscapes: true
+      }
+    };
   </script>
-  <script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
+
+  <script
+    type="text/javascript"
+    id="MathJax-script"
+    async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
 
   <!-- Google Analytics -->
   <script>
@@ -115,6 +132,9 @@
 </h1>
 
 <p><em>Note: Some of the files are shared using Google drive for the purpose of preview. Please use the VPN to visit them if you have network issues.</em></p>
+
+<h3 id="physics-of-space-weather-hs25">Physics of Space Weather, HS25</h3>
+<p>Task slides for Exercises 1 to 6 are available at <a href="https://drive.google.com/drive/folders/19xZt6Mh8dw4_04f9k1U6wxaPl4AurIg4?usp=drive_link">here</a>.</p>
 
 <h3 id="lecture-notes">Lecture Notes</h3>
 <p>Some of my poorly-hand-written lecture notes of the undergraduate &amp; graduate level courses:</p>
